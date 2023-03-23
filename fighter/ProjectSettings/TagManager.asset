@@ -5,14 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - MoveJoystick
+  - AttackButton
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Players
   - Water
   - UI
-  - Players
+  - 
   - 
   - 
   - 

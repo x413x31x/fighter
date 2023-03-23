@@ -5,6 +5,13 @@ using UnityEngine;
 
 public class Player : Character
 {
+    [SerializeField] protected Transform _attackPoint;
+    [SerializeField] protected LayerMask _enemyLayer;
+    [SerializeField] protected float _attackRange;
+
+    [SerializeField] private float _attackRate = 4f;
+    private float _nextAttackTime = 0f;
+
     protected override void MoveController()
     {
         _moveDerection = new Vector2(_joystick.Horizontal, transform.position.y);
@@ -30,13 +37,22 @@ public class Player : Character
         _rigidBody.MovePosition(_rigidBody.position + _moveVelocity * Time.deltaTime);
     }
 
-    protected override void AttackController()
+    public override void Attack()
     {
-        _animatorController.SetTrigger("isAttack");
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _enemyLayers);
-        foreach(Collider2D enemy in hitEnemies)
+        if(Time.time >= _nextAttackTime)
         {
-            enemy.GetComponent<Enemy>().TakenDamage(damage);
+            _animatorController.SetTrigger("isAttack");
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _enemyLayer);
+            foreach (Collider2D enemy in hitEnemies)
+            {
+                enemy.GetComponent<Character>().TakenDamage(25);
+            }
+            _nextAttackTime = Time.time + 1f / _attackRate;
         }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(_attackPoint.position, _attackRange); 
     }
 }

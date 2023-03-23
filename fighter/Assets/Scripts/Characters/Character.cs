@@ -12,28 +12,17 @@ public abstract class Character : MonoBehaviour
     protected Vector2 _moveDerection;
     protected Vector2 _moveVelocity;
 
-    [SerializeField] protected Transform _attackPoint;
-    [SerializeField] protected float _attackRange = 0.5f;
-    [SerializeField] protected LayerMask _enemyLayers;
-
     protected int _speed = 5;
-    private int _maxHealth = 100;
-    private int _currentHealth;
-    protected int damage = 21;
 
-    private void Start()
+
+    private void Awake()
     {
         InitFields();
-        _currentHealth = _maxHealth;
     }
 
     private void Update()
     {
-        MoveController();
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            AttackController();
-        }
+       // MoveController();
     }
 
     private void InitFields()
@@ -45,29 +34,11 @@ public abstract class Character : MonoBehaviour
 
     protected abstract void MoveController();
 
-    protected abstract void AttackController();
+    public abstract void Attack();
 
     public void TakenDamage(int damage)
     {
-        _currentHealth -= damage;
-        if(_currentHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    private void Die()
-    {
-        Debug.LogWarning("Y kill me! Kheeeee");
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-        if (_attackPoint == null)
-        {
-            return;
-        }
-        Gizmos.DrawWireSphere(_attackPoint.position, _attackRange);
+        Debug.LogWarning("you attacked - ");
     }
 
     protected void FlipCharacter()
