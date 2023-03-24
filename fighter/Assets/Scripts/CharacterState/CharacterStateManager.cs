@@ -5,6 +5,13 @@ using UnityEngine.UI;
 
 public class CharacterStateManager : MonoBehaviour
 {
+    [SerializeField] private GameObject _effectOnHit;
+    [SerializeField] private GameObject _effectOnCrit;
+
+    [SerializeField] private GameObject _wordOnCrit;
+    [SerializeField] private GameObject _wordOnMiss;
+    [SerializeField] private GameObject _wordOnBash;
+
     private CharacterBaseState _currentState;
 
     public CharacterIdleState _idleState = new CharacterIdleState();
@@ -34,7 +41,7 @@ public class CharacterStateManager : MonoBehaviour
     private int _chance = 25;
     public int _speed = 5;
     private int _damage = 20;
-    public float _maxHealth = 100;
+    public float _maxHealth = 1000;
 
     public float _currentHealth;
     public float _stunDuration = 2f;
@@ -109,22 +116,27 @@ public class CharacterStateManager : MonoBehaviour
         int randomMiss = Random.Range(0, 100);
         if(randomMiss <= _chance)
         {
+            Instantiate(_wordOnMiss, transform.position, Quaternion.identity);
             return;
         }
 
         int randomBash = Random.Range(0, 100);
         if(randomBash <= _chance)
         {
+            Instantiate(_wordOnBash, transform.position, Quaternion.identity);
             SwitchState(_stunState);
         }
 
         int randomCrit = Random.Range(0, 100);
         if(randomCrit <= _chance)
         {
+            Instantiate(_wordOnCrit, transform.position, Quaternion.identity);
+            Instantiate(_effectOnCrit, transform.position, Quaternion.identity);
             _currentHealth -= damage * 2;
         }
         else
         {
+            Instantiate(_effectOnHit, transform.position, Quaternion.identity);
             _currentHealth -= damage;
         }
 

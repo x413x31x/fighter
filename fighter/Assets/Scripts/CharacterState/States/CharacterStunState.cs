@@ -29,5 +29,9 @@ public class CharacterStunState : CharacterBaseState
     public override void ExitState(CharacterStateManager character)
     {
         character._animatorController.SetBool("isStun", false);
+        if (character._isPlayer)
+        {
+            character._attackButton.interactable = true;
+        }
     }
 }
