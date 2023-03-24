@@ -6,11 +6,9 @@ public class CharacterAttackState : CharacterBaseState
 {
     public override void EnterState(CharacterStateManager character)
     {
-        character._animatorController.SetBool("isAttack", true);
-        character._attackCooldown = character._baseAttackTime;
+        character.CurrentAnimation("isAttack");
         character._attackButton.interactable = false;
-
-        Debug.LogWarning("Hello from AttackState!");
+        character._attackCooldown = character._baseAttackTime;
     }
 
     public override void UpdateState(CharacterStateManager character)

@@ -6,15 +6,15 @@ public class CharacterDieState : CharacterBaseState
 {
     public override void EnterState(CharacterStateManager character)
     {
-        
+        character.CurrentAnimation("isDead");
     }
 
-    public override void OnCollisionEnter(CharacterStateManager character)
+    public override void UpdateState(CharacterStateManager character)
     {
         
     }
 
-    public override void UpdateState(CharacterStateManager character)
+    public override void OnCollisionEnter(CharacterStateManager character)
     {
         
     }

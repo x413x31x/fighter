@@ -6,10 +6,8 @@ public class CharacterWalkingState : CharacterBaseState
 {
     public override void EnterState(CharacterStateManager character)
     {
-        character._animatorController.SetBool("isWalking", true);
+        character.CurrentAnimation("isWalking");
         character._attackButton.interactable = false;
-
-        Debug.LogWarning("Hello from WalkingState!");
     }
 
     public override void UpdateState(CharacterStateManager character)

@@ -23,13 +23,20 @@ public class CharacterStateManager : MonoBehaviour
     public Vector2 _moveDerection;
     public Vector2 _moveVelocity;
 
-    public int _speed = 5;
-
     public float _baseAttackTime = 0.5f;
     public float _attackCooldown = 0f;
+    private float _attackRange = 0.6f;
     private Transform _attackPoint;
     private LayerMask _enemyLayer;
-    private float _attackRange = 0.6f;
+
+    public float _stunDuration = 2f;
+    private int _chance = 25;
+    public int _speed = 5;
+    private int _maxHealth = 100;
+    [SerializeField] private int _currentHealth;
+    private int _damage = 20;
+
+    public bool _isPlayer = true;
 
 
     private void Start()
@@ -47,6 +54,8 @@ public class CharacterStateManager : MonoBehaviour
         _attackButton = GameObject.FindGameObjectWithTag("AttackButton").GetComponent<Button>();
         _attackPoint = transform.Find("AttackPoint");
         _enemyLayer = LayerMask.NameToLayer("Water"); //magic layers))
+
+        _currentHealth = _maxHealth;
     }
 
     private void Update()
@@ -62,8 +71,11 @@ public class CharacterStateManager : MonoBehaviour
 
     public void Attack()
     {
-        _currentState = _attackState;
-        _currentState.EnterState(this);
+        if (_isPlayer)
+        {
+            _currentState = _attackState;
+            _currentState.EnterState(this);
+        }
     }
 
     private void OnAttack()
@@ -71,18 +83,60 @@ public class CharacterStateManager : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _enemyLayer);
         foreach (Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<Enemy>().TakenDamage(25);
+            enemy.GetComponent<CharacterStateManager>().TakenDamage(_damage);
         }
     }
 
     public void TakenDamage(int damage)
     {
-        //SOON
+        int randomMiss = Random.Range(0, 100);
+        if(randomMiss <= _chance)
+        {
+            return;
+        }
+
+        int randomBash = Random.Range(0, 100);
+        if(randomBash <= _chance)
+        {
+            SwitchState(_stunState);
+        }
+
+        int randomCrit = Random.Range(0, 100);
+        if(randomCrit <= _chance)
+        {
+            _currentHealth -= damage * 2;
+        }
+        else
+        {
+            _currentHealth -= damage;
+        }
+
+        if(_currentHealth <= 0)
+        {
+            SwitchState(_dieState);
+        }
     }
 
     private void OnDrawGizmosSelected()
     {
         //Gizmos.DrawWireSphere(_attackPoint.position, _attackRange);
+    }
+
+    public void CurrentAnimation(string name)
+    {
+        _animatorController.SetBool("isDead", false);
+        _animatorController.SetBool("isWalking", false);
+        _animatorController.SetBool("isAttack", false);
+        _animatorController.SetBool("isStun", false);
+        _animatorController.SetBool(name, true);
+    }
+
+    public void CurrentAnimation()
+    {
+        _animatorController.SetBool("isDead", false);
+        _animatorController.SetBool("isWalking", false);
+        _animatorController.SetBool("isAttack", false);
+        _animatorController.SetBool("isStun", false);
     }
 
     public void FlipCharacter()

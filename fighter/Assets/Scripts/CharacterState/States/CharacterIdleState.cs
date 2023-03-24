@@ -6,20 +6,19 @@ public class CharacterIdleState : CharacterBaseState
 {
     public override void EnterState(CharacterStateManager character)
     {
-        character._animatorController.SetBool("isWalking", false);
-        character._animatorController.SetBool("isAttack", false);
-
+        character.CurrentAnimation();
         character._attackButton.interactable = true;
-
-        Debug.LogWarning("Hello from IdleState!");
     }
 
     public override void UpdateState(CharacterStateManager character)
     {
-        character._moveDerection = new Vector2(character._joystick.Horizontal, character.transform.position.y);
-        if (character._moveDerection.x != 0)
+        if (character._isPlayer)
         {
-            character.SwitchState(character._walkingState);
+            character._moveDerection = new Vector2(character._joystick.Horizontal, character.transform.position.y);
+            if (character._moveDerection.x != 0)
+            {
+                character.SwitchState(character._walkingState);
+            }
         }
     }
 
