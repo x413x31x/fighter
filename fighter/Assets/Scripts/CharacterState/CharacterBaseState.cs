@@ -6,5 +6,5 @@ public abstract class CharacterBaseState
 
     public abstract void UpdateState(CharacterStateManager character);
 
-    public abstract void OnCollisionEnter(CharacterStateManager character);
+    public abstract void ExitState(CharacterStateManager character);
 }

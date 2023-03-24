@@ -22,11 +22,12 @@ public class CharacterStateManager : MonoBehaviour
     public DirectionState _directionState = DirectionState.Right;
     public Vector2 _moveDerection;
     public Vector2 _moveVelocity;
+    public Transform _target;
 
     public float _baseAttackTime = 0.5f;
     public float _attackCooldown = 0f;
-    private float _attackRange = 0.6f;
-    private Transform _attackPoint;
+    public float _attackRange = 0.6f;
+    public Transform _attackPoint;
     private LayerMask _enemyLayer;
 
     public float _stunDuration = 2f;
@@ -50,6 +51,7 @@ public class CharacterStateManager : MonoBehaviour
     {
         _animatorController = GetComponent<Animator>();
         _rigidBody = GetComponent<Rigidbody2D>();
+        _target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         _joystick = GameObject.FindGameObjectWithTag("MoveJoystick").GetComponent<Joystick>();
         _attackButton = GameObject.FindGameObjectWithTag("AttackButton").GetComponent<Button>();
         _attackPoint = transform.Find("AttackPoint");
@@ -65,6 +67,7 @@ public class CharacterStateManager : MonoBehaviour
 
     public void SwitchState(CharacterBaseState state)
     {
+        _currentState.ExitState(this);
         _currentState = state;
         state.EnterState(this);
     }
@@ -80,10 +83,13 @@ public class CharacterStateManager : MonoBehaviour
 
     private void OnAttack()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _enemyLayer);
-        foreach (Collider2D enemy in hitEnemies)
+        if (_isPlayer)
         {
-            enemy.GetComponent<CharacterStateManager>().TakenDamage(_damage);
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _enemyLayer);
+            foreach (Collider2D enemy in hitEnemies)
+            {
+                enemy.GetComponent<CharacterStateManager>().TakenDamage(_damage);
+            }
         }
     }
 
@@ -120,24 +126,7 @@ public class CharacterStateManager : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         //Gizmos.DrawWireSphere(_attackPoint.position, _attackRange);
-    }
-
-    public void CurrentAnimation(string name)
-    {
-        _animatorController.SetBool("isDead", false);
-        _animatorController.SetBool("isWalking", false);
-        _animatorController.SetBool("isAttack", false);
-        _animatorController.SetBool("isStun", false);
-        _animatorController.SetBool(name, true);
-    }
-
-    public void CurrentAnimation()
-    {
-        _animatorController.SetBool("isDead", false);
-        _animatorController.SetBool("isWalking", false);
-        _animatorController.SetBool("isAttack", false);
-        _animatorController.SetBool("isStun", false);
-    }
+    }    
 
     public void FlipCharacter()
     {

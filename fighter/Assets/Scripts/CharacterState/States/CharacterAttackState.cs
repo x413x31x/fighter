@@ -6,8 +6,11 @@ public class CharacterAttackState : CharacterBaseState
 {
     public override void EnterState(CharacterStateManager character)
     {
-        character.CurrentAnimation("isAttack");
-        character._attackButton.interactable = false;
+        character._animatorController.SetBool("isAttack", true);
+        if (character._isPlayer)
+        {
+            character._attackButton.interactable = false;
+        }
         character._attackCooldown = character._baseAttackTime;
     }
 
@@ -23,7 +26,12 @@ public class CharacterAttackState : CharacterBaseState
         }
     }
 
-    public override void OnCollisionEnter(CharacterStateManager character)
+    public override void ExitState(CharacterStateManager character)
     {
+        character._animatorController.SetBool("isAttack", false);
+        if (character._isPlayer)
+        {
+            character._attackButton.interactable = true;
+        }
     }
 }

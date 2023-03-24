@@ -6,7 +6,11 @@ public class CharacterDieState : CharacterBaseState
 {
     public override void EnterState(CharacterStateManager character)
     {
-        character.CurrentAnimation("isDead");
+        character._animatorController.SetBool("isDead", true);
+        if (character._isPlayer)
+        {
+            character._attackButton.interactable = false;
+        }
     }
 
     public override void UpdateState(CharacterStateManager character)
@@ -14,8 +18,8 @@ public class CharacterDieState : CharacterBaseState
         
     }
 
-    public override void OnCollisionEnter(CharacterStateManager character)
+    public override void ExitState(CharacterStateManager character)
     {
-        
+        character._animatorController.SetBool("isDead", false);
     }
 }
