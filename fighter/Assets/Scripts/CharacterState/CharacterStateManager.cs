@@ -22,20 +22,22 @@ public class CharacterStateManager : MonoBehaviour
     public DirectionState _directionState = DirectionState.Right;
     public Vector2 _moveDerection;
     public Vector2 _moveVelocity;
-    public Transform _target;
+    public Transform _playerPosition;
 
-    public float _baseAttackTime = 0.5f;
     public float _attackCooldown = 0f;
-    public float _attackRange = 0.6f;
-    public Transform _attackPoint;
     private LayerMask _enemyLayer;
+    private LayerMask _playerLayer;
+    [SerializeField] public Transform _attackPoint;
+    [SerializeField] public float _attackRange = 0.6f;
+    public float _baseAttackTime = 0.5f;
 
-    public float _stunDuration = 2f;
     private int _chance = 25;
     public int _speed = 5;
-    private int _maxHealth = 100;
-    [SerializeField] private int _currentHealth;
     private int _damage = 20;
+    public float _maxHealth = 100;
+
+    public float _currentHealth;
+    public float _stunDuration = 2f;
 
     public bool _isPlayer = true;
 
@@ -51,11 +53,12 @@ public class CharacterStateManager : MonoBehaviour
     {
         _animatorController = GetComponent<Animator>();
         _rigidBody = GetComponent<Rigidbody2D>();
-        _target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        _playerPosition = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         _joystick = GameObject.FindGameObjectWithTag("MoveJoystick").GetComponent<Joystick>();
         _attackButton = GameObject.FindGameObjectWithTag("AttackButton").GetComponent<Button>();
         _attackPoint = transform.Find("AttackPoint");
-        _enemyLayer = LayerMask.NameToLayer("Water"); //magic layers))
+        _enemyLayer = LayerMask.GetMask("Enemy");
+        _playerLayer = LayerMask.GetMask("Player");
 
         _currentHealth = _maxHealth;
     }
@@ -89,6 +92,14 @@ public class CharacterStateManager : MonoBehaviour
             foreach (Collider2D enemy in hitEnemies)
             {
                 enemy.GetComponent<CharacterStateManager>().TakenDamage(_damage);
+            }
+        }
+        else
+        {
+            Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _playerLayer);
+            foreach (Collider2D player in hitPlayers)
+            {
+                player.GetComponent<CharacterStateManager>().TakenDamage(_damage);
             }
         }
     }
@@ -125,7 +136,7 @@ public class CharacterStateManager : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        //Gizmos.DrawWireSphere(_attackPoint.position, _attackRange);
+        Gizmos.DrawWireSphere(_attackPoint.position, _attackRange);
     }    
 
     public void FlipCharacter()

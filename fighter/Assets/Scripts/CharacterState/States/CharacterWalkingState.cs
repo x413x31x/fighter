@@ -56,10 +56,10 @@ public class CharacterWalkingState : CharacterBaseState
 
     private void Enemy(CharacterStateManager character)
     {
-        Vector2 targetPosition = new Vector2(character._target.position.x, character._rigidBody.position.y);
+        Vector2 targetPosition = new Vector2(character._playerPosition.position.x, character._rigidBody.position.y);
         Vector2 newPosition = Vector2.MoveTowards(character._rigidBody.position, targetPosition, character._speed * Time.deltaTime);
         character._rigidBody.MovePosition(newPosition);
-        if(Vector2.Distance(character._target.position, character._attackPoint.position) <= 1)
+        if(Vector2.Distance(character._playerPosition.position, character._attackPoint.position) <= 1)
         {
             character.SwitchState(character._attackState);
         }
