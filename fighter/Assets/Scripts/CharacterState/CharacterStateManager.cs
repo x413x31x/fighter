@@ -38,6 +38,7 @@ public class CharacterStateManager : MonoBehaviour
     [SerializeField] public float _attackRange = 0.6f;
     public float _baseAttackTime = 0.5f;
 
+    public string _nickname = "Character";
     private int _chance = 25;
     public int _speed = 5;
     private int _damage = 20;

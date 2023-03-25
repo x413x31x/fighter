@@ -4,7 +4,7 @@ using TMPro;
 
 public class HealthbarManager : MonoBehaviour
 {
-    private CharacterStateManager _character;
+    [SerializeField] private CharacterStateManager _character;
     private float _maxHealth;
     private Image _slider;
     private TMP_Text _healthCounter;
@@ -16,11 +16,11 @@ public class HealthbarManager : MonoBehaviour
     {
         if (_isPlayer)
         {
-            _character = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterStateManager>();
+            _character = GameManager._player;
         }
         else
         {
-            _character = GameObject.FindGameObjectWithTag("Enemy").GetComponent<CharacterStateManager>();
+            _character = GameManager._enemy;
         }
         _maxHealth = _character._maxHealth;
         _slider = GetComponent<Image>();
