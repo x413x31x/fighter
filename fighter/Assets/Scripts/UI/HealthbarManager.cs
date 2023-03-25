@@ -4,7 +4,7 @@ using TMPro;
 
 public class HealthbarManager : MonoBehaviour
 {
-    [SerializeField] private CharacterStateManager _character;
+    private CharacterStateManager _character;
     private float _maxHealth;
     private Image _slider;
     private TMP_Text _healthCounter;

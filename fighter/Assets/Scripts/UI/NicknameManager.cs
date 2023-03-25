@@ -3,7 +3,7 @@ using TMPro;
 
 public class NicknameManager : MonoBehaviour
 {
-    [SerializeField] private CharacterStateManager _character;
+    private CharacterStateManager _character;
     private TMP_Text _nickname;
     [SerializeField] private bool _isPlayer = true;
 

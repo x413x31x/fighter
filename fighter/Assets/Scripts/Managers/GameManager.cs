@@ -1,7 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,11 +14,19 @@ public class GameManager : MonoBehaviour
     public static CharacterStateManager _player;
     public static CharacterStateManager _enemy;
 
-    private void Start()
+    private void Awake()
     {
         CreatePlayer();
         CreateEnemy();
         CreateCamera();
+    }
+
+    private void Update()
+    {
+        if (_player._isDead || _enemy._isDead)
+        {
+            GameOver();
+        }
     }
 
     private void CreatePlayer()
@@ -48,5 +56,10 @@ public class GameManager : MonoBehaviour
     {
         GameObject camera = Instantiate(_cinemachineCameraPref);
         camera.GetComponent<Cinemachine.CinemachineVirtualCamera>().Follow = _player.transform;
+    }
+
+    private void GameOver()
+    {
+        SceneManager.LoadScene("MenuScene");
     }
 }

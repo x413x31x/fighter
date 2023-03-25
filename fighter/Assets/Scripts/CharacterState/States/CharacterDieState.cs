@@ -11,6 +11,7 @@ public class CharacterDieState : CharacterBaseState
         {
             character._attackButton.interactable = false;
         }
+        character._isDead = true;
     }
 
     public override void UpdateState(CharacterStateManager character)
