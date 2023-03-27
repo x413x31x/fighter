@@ -189,6 +189,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026f1222a49e95d4fb20f8d4b5629ed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _maxHealth: 1000
+  _currentHealth: 0
+  _damage: 25
+  _speed: 5
+  _baseAttackTime: 0.5
+  _critChance: 25
+  _missChance: 25
+  _bashChance: 25
+  _attackPoint: {fileID: 7458498262059893432}
+  _attackRange: 0.6
   _effectOnHit: {fileID: 1061262644786714610, guid: 5622bf6b7f72e9046b73b90141884643, type: 3}
   _effectOnCrit: {fileID: 4035766252879651543, guid: f94eaef0a691fe847a636cb6f1575184, type: 3}
   _wordOnCrit: {fileID: 4803289295032549348, guid: 53196fb7df031e8478f4c6b02aafd819, type: 3}
@@ -203,11 +213,7 @@ MonoBehaviour:
   _moveVelocity: {x: 0, y: 0}
   _playerPosition: {fileID: 0}
   _attackCooldown: 0
-  _attackPoint: {fileID: 7458498262059893432}
-  _attackRange: 0.6
-  _baseAttackTime: 0.5
-  _speed: 5
-  _maxHealth: 1000
-  _currentHealth: 0
+  _nickname: Character
   _stunDuration: 2
   _isPlayer: 1
+  _isDead: 0

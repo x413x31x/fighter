@@ -22,14 +22,14 @@ public class HealthbarManager : MonoBehaviour
         {
             _character = GameManager._enemy;
         }
-        _maxHealth = _character._maxHealth;
         _slider = GetComponent<Image>();
         _healthCounter = GetComponentInChildren<TMP_Text>();
     }
 
     private void Update()
     {
-        if(_character._currentHealth / _maxHealth <= 0.6 && _character._currentHealth / _maxHealth > 0.3)
+        _maxHealth = _character._maxHealth;
+        if (_character._currentHealth / _maxHealth <= 0.6 && _character._currentHealth / _maxHealth > 0.3)
         {
             _slider.sprite = _yellow;
         }
