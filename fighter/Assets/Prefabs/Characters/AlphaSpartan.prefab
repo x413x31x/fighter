@@ -189,6 +189,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026f1222a49e95d4fb20f8d4b5629ed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _character: {fileID: 11400000, guid: 4043531ad77a7174788376dd547fe048, type: 2}
+  _upgradedStats: {fileID: 11400000, guid: a710182c5c4fa7048a59caf331ccef01, type: 2}
   _maxHealth: 1000
   _currentHealth: 0
   _damage: 25
@@ -197,8 +199,8 @@ MonoBehaviour:
   _critChance: 15
   _missChance: 15
   _bashChance: 15
-  _attackPoint: {fileID: 7458498262059893432}
   _attackRange: 0.6
+  _attackPoint: {fileID: 7458498262059893432}
   _effectOnHit: {fileID: 1061262644786714610, guid: 5622bf6b7f72e9046b73b90141884643, type: 3}
   _effectOnCrit: {fileID: 4035766252879651543, guid: f94eaef0a691fe847a636cb6f1575184, type: 3}
   _wordOnCrit: {fileID: 4803289295032549348, guid: 53196fb7df031e8478f4c6b02aafd819, type: 3}

@@ -385,7 +385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 100198115}
   m_Layer: 5
-  m_Name: AlphaSpartan (3)
+  m_Name: Delta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1976,7 +1976,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 356943598}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnMissChancePressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &356943598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2098,7 +2110,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 396487140}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnDamagePressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &396487140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3490,7 +3514,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 774890396}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnSpeedPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &774890396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3650,7 +3686,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 817534790}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnHotelPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &817534790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3699,7 +3747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 848488803}
   m_Layer: 5
-  m_Name: AlphaSpartan (7)
+  m_Name: Hotel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3944,7 +3992,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 882264818}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnBashChancePressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &882264818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4147,7 +4207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 966917170}
   m_Layer: 5
-  m_Name: AlphaSpartan (2)
+  m_Name: Charlie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4710,7 +4770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082934133}
   m_Layer: 5
-  m_Name: AlphaSpartan (5)
+  m_Name: Foxtrot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6527,7 +6587,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1378828923}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnBravoPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1378828923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6648,7 +6720,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1382475717}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnGolfPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1382475717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6819,7 +6903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1395974429}
   m_Layer: 5
-  m_Name: AlphaSpartan (4)
+  m_Name: Echo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8382,7 +8466,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1642055730}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnFoxtrotPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1642055730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9233,7 +9329,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1752299250}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnCritChancePressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1752299250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10323,9 +10431,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1058196a6a9b5a64aac1774d70354f6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _allCharacters:
+  - {fileID: 11400000, guid: 4043531ad77a7174788376dd547fe048, type: 2}
+  - {fileID: 11400000, guid: 27526a624989957499afa984d0aa9816, type: 2}
+  _resources: {fileID: 11400000, guid: 52da19525ba99b84db0f545677b07331, type: 2}
+  _upgradedStats: {fileID: 11400000, guid: a710182c5c4fa7048a59caf331ccef01, type: 2}
+  _prices: {fileID: 11400000, guid: 6716c9aae2e5c104599db98de2809f58, type: 2}
   _goldCounter: {fileID: 1118944609}
   _winsCounter: {fileID: 1432927344}
   _description: {fileID: 1287415276}
+  _icon: {fileID: 130082482}
   _upgradeHealth: {fileID: 1656830853}
   _upgradeDamage: {fileID: 1879093122}
   _upgradeSpeed: {fileID: 268393813}
@@ -10564,7 +10679,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1895926702}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnEchoPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1895926702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10685,7 +10812,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1899025884}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnDeltaPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1899025884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11187,7 +11326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998249238}
   m_Layer: 5
-  m_Name: AlphaSpartan (6)
+  m_Name: Golf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11445,7 +11584,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2010480750}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnAlphaPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2010480750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11963,7 +12114,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2066532931}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnCharliePressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2066532931
 MonoBehaviour:
   m_ObjectHideFlags: 0

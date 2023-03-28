@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,195 +5,245 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    private int _gold
+    [SerializeField] private List<CharacterObject> _allCharacters;
+    private CharacterObject _character;
+    private string _currentCharacterName
     {
-        get => PlayerPrefs.GetInt("Gold");
-        set => PlayerPrefs.SetInt("Gold", value);
+        get => PlayerPrefs.GetString("CurrentCharacter");
+        set => PlayerPrefs.SetString("CurrentCharacter", value);
     }
+
+    [SerializeField] private ResourcesObject _resources;
+    [SerializeField] private UpgradedStatsObject _upgradedStats;
+    [SerializeField] private UpgradePricesObject _prices;
+
     [SerializeField] private TMP_Text _goldCounter;
-    private int _wins
-    {
-        get => PlayerPrefs.GetInt("Wins");
-        set => PlayerPrefs.SetInt("Wins", value);
-    }
     [SerializeField] private TMP_Text _winsCounter;
-
-    private int _health
-    {
-        get => PlayerPrefs.GetInt("Health");
-        set => PlayerPrefs.SetInt("Health", value);
-    }
-    private int _damage
-    {
-        get => PlayerPrefs.GetInt("Damage");
-        set => PlayerPrefs.SetInt("Damage", value);
-    }
-    private int _speed
-    {
-        get => PlayerPrefs.GetInt("Speed");
-        set => PlayerPrefs.SetInt("Speed", value);
-    }
-    private float _attackTime
-    {
-        get => PlayerPrefs.GetFloat("AttackTime");
-        set => PlayerPrefs.GetFloat("AttackTime", value);
-    }
-    private int _critChance
-    {
-        get => PlayerPrefs.GetInt("CritChance");
-        set => PlayerPrefs.SetInt("CritChance", value);
-    }
-    private int _missChance
-    {
-        get => PlayerPrefs.GetInt("MissChance");
-        set => PlayerPrefs.SetInt("MissChance", value);
-    }
-    private int _bashChance
-    {
-        get => PlayerPrefs.GetInt("BashChance");
-        set => PlayerPrefs.SetInt("BashChance", value);
-    }
     [SerializeField] private TMP_Text _description;
+    [SerializeField] private Image _icon;
 
-    private int _goldForHealth
-    {
-        get => PlayerPrefs.GetInt("GoldForHealth");
-        set => PlayerPrefs.SetInt("GoldForHealth", value);
-    }
     [SerializeField] private TMP_Text _upgradeHealth;
-    private int _goldForDamage
-    {
-        get => PlayerPrefs.GetInt("GoldForDamage");
-        set => PlayerPrefs.SetInt("GoldForDamage", value);
-    }
     [SerializeField] private TMP_Text _upgradeDamage;
-    private int _goldForSpeed
-    {
-        get => PlayerPrefs.GetInt("GoldForSpeed");
-        set => PlayerPrefs.SetInt("GoldForSpeed", value);
-    }
     [SerializeField] private TMP_Text _upgradeSpeed;
-    private int _goldForCritChance
-    {
-        get => PlayerPrefs.GetInt("GoldForCritChance");
-        set => PlayerPrefs.SetInt("GoldForCritChance", value);
-    }
     [SerializeField] private TMP_Text _upgradeCritChance;
-    private int _goldForMissChance
-    {
-        get => PlayerPrefs.GetInt("GoldForMissChance");
-        set => PlayerPrefs.SetInt("GoldForMissChance", value);
-    }
     [SerializeField] private TMP_Text _upgradeMissChance;
-    private int _goldForBashChance
-    {
-        get => PlayerPrefs.GetInt("GoldForBashChance");
-        set => PlayerPrefs.SetInt("GoldForBashChance", value);
-    }
     [SerializeField] private TMP_Text _upgradebashChance;
+
+    private int _healthPerUp = 200;
+    private int _damagePerUp = 5;
+    private int _speedPerUp = 1;
+    private int _chancePerUp = 1;
 
     private void Start()
     {
-        CheckPrefs();
-        SetResources();
-        SetDescription();
-        SetUpgrades();
+        Refresh();
+    }
+
+    private void SetCharacter()
+    {
+        if (!PlayerPrefs.HasKey("CurrentCharacter"))
+        {
+            _currentCharacterName = "AlphaSpartan";
+        }
+
+        if(_currentCharacterName == _allCharacters[0].name)
+        {
+            _character = _allCharacters[0];
+        }
+        else if(_currentCharacterName == _allCharacters[1].name)
+        {
+            _character = _allCharacters[1];
+        }
+        else if (_currentCharacterName == _allCharacters[2].name)
+        {
+            _character = _allCharacters[2];
+        }
+        else if (_currentCharacterName == _allCharacters[3].name)
+        {
+            _character = _allCharacters[3];
+        }
+        else if (_currentCharacterName == _allCharacters[4].name)
+        {
+            _character = _allCharacters[4];
+        }
+        else if (_currentCharacterName == _allCharacters[5].name)
+        {
+            _character = _allCharacters[5];
+        }
+        else if (_currentCharacterName == _allCharacters[6].name)
+        {
+            _character = _allCharacters[6];
+        }
+        else if (_currentCharacterName == _allCharacters[7].name)
+        {
+            _character = _allCharacters[7];
+        }
     }
 
     private void SetResources()
     {
-        _goldCounter.text = _gold.ToString();
-        _winsCounter.text = _wins.ToString();
-    }
-
-    private void SetUpgrades()
-    {
-        _upgradeHealth.text = _goldForHealth.ToString() + " gold = 200 health";
-        _upgradeDamage.text = _goldForDamage.ToString() + " gold = 5 damage";
-        _upgradeSpeed.text = _goldForSpeed.ToString() + " gold = 1 speed";
-        _upgradeCritChance.text = _goldForCritChance.ToString() + " gold = 1% crit";
-        _upgradeMissChance.text = _goldForMissChance.ToString() + " gold = 1% miss";
-        _upgradebashChance.text = _goldForBashChance.ToString() + " gold = 1% bash";
+        _goldCounter.text = _resources.GetGold().ToString();
+        _winsCounter.text = _resources.GetWins().ToString();
     }
 
     private void SetDescription()
     {
+        int health = _character._health + _upgradedStats.GetHealth();
+        int damage = _character._damage + _upgradedStats.GetDamage();
+        int speed = _character._speed + _upgradedStats.GetSpeed();
+        float attackTime = _character._attackTime;
+        int critChance = _character._critChance + _upgradedStats.GetCritChance();
+        int missChance = _character._missChance + _upgradedStats.GetMissChance();
+        int bashChance = _character._bashChance + _upgradedStats.GetBashChance();
+
         _description.text =
-            "Health: " + _health.ToString() +
-            "\nDamage: " + _damage.ToString() +
-            "\nSpeed: " + _speed.ToString() +
-            "\nAttack time: " + _attackTime.ToString() +
-            "\nCrit chance: " + _critChance.ToString() + "%" +
-            "\nMiss chance: " + _missChance.ToString() + "%" +
-            "\nBash chance: " + _bashChance.ToString() + "%";
+            "Health: " + health.ToString() +
+            "\nDamage: " + damage.ToString() +
+            "\nSpeed: " + speed.ToString() +
+            "\nAttack time: " + attackTime.ToString() +
+            "\nCrit chance: " + critChance.ToString() + "%" +
+            "\nMiss chance: " + missChance.ToString() + "%" +
+            "\nBash chance: " + bashChance.ToString() + "%";
+    }
+
+    private void SetUpgrades()
+    {
+        _upgradeHealth.text = _prices.GetGoldForHealth().ToString() + " gold = 200 health";
+        _upgradeDamage.text = _prices.GetGoldForDamage().ToString() + " gold = 5 damage";
+        _upgradeSpeed.text = _prices.GetGoldForSpeed().ToString() + " gold = 1 speed";
+        _upgradeCritChance.text = _prices.GetGoldForCritChance().ToString() + " gold = 1% crit";
+        _upgradeMissChance.text = _prices.GetGoldForMissChance().ToString() + " gold = 1% miss";
+        _upgradebashChance.text = _prices.GetGoldForBashChance().ToString() + " gold = 1% bash";
+    }
+
+    private void SetIcon()
+    {
+        _icon.sprite = _character._icon;
+    } 
+
+    private void Refresh()
+    {
+        SetCharacter();
+        SetResources();
+        SetDescription();
+        SetUpgrades();
+        SetIcon();
     }
 
     public void OnHealthPressed()
     {
-        if(_goldForHealth > _gold)
+        if(_prices.GetGoldForHealth() > _resources.GetGold())
         {
             return;
         }
-        _health += 200;
-        _gold -= _goldForHealth;
-        _goldForHealth *= 2;
+        _upgradedStats.SetHealth(_healthPerUp);
+        _resources.SetGold(-_prices.GetGoldForHealth());
+        _prices.IncreasedGoldForHealth();
 
-        SetDescription();
-        SetUpgrades();
+        Refresh();
     }
 
     public void OnDamagePressed()
     {
-        SetDescription();
-        SetUpgrades();
+        if (_prices.GetGoldForDamage() > _resources.GetGold())
+        {
+            return;
+        }
+        _upgradedStats.SetDamage(_damagePerUp);
+        _resources.SetGold(-_prices.GetGoldForDamage());
+        _prices.IncreasedGoldForDamage();
+
+        Refresh();
     }
 
     public void OnSpeedPressed()
     {
-        SetDescription();
-        SetUpgrades();
+        if (_prices.GetGoldForSpeed() > _resources.GetGold())
+        {
+            return;
+        }
+        _upgradedStats.SetSpeed(_speedPerUp);
+        _resources.SetGold(-_prices.GetGoldForSpeed());
+        _prices.IncreasedGoldForSpeed();
+
+        Refresh();
     }
 
     public void OnCritChancePressed()
     {
-        SetDescription();
-        SetUpgrades();
+        if (_prices.GetGoldForCritChance() > _resources.GetGold())
+        {
+            return;
+        }
+        _upgradedStats.SetCritChance(_chancePerUp);
+        _resources.SetGold(-_prices.GetGoldForCritChance());
+        _prices.IncreasedGoldForCritChance();
+        Refresh();
     }
 
     public void OnMissChancePressed()
     {
-        SetDescription();
-        SetUpgrades();
+        if (_prices.GetGoldForMissChance() > _resources.GetGold())
+        {
+            return;
+        }
+        _upgradedStats.SetMissChance(_chancePerUp);
+        _resources.SetGold(-_prices.GetGoldForMissChance());
+        _prices.IncreasedGoldForMissChance();
+        Refresh();
     }
 
     public void OnBashChancePressed()
     {
-        SetDescription();
-        SetUpgrades();
+        if (_prices.GetGoldForBashChance() > _resources.GetGold())
+        {
+            return;
+        }
+        _upgradedStats.SetBashChance(_chancePerUp);
+        _resources.SetGold(-_prices.GetGoldForBashChance());
+        _prices.IncreasedGoldForBashChance();
+        Refresh();
     }
 
-    private void CheckPrefs()
+    public void OnAlphaPressed()
     {
-        if (!PlayerPrefs.HasKey("Gold"))
-        {
-            _gold = 100;
-            _wins = 0;
-            _health = 1000;
-            _damage = 25;
-            _speed = 5;
-            _attackTime = 0.5f;
-            _critChance = 15;
-            _missChance = 15;
-            _bashChance = 15;
-        }
-        if (!PlayerPrefs.HasKey("GoldForHealth"))
-        {
-            _goldForHealth = 200;
-            _goldForDamage = 200;
-            _goldForSpeed = 200;
-            _goldForCritChance = 200;
-            _goldForMissChance = 200;
-            _goldForBashChance = 200;
-        }
+        _currentCharacterName = "AlphaSpartan";
+        Refresh();
+    }
+
+    public void OnBravoPressed()
+    {
+        _currentCharacterName = "BravoStrongman";
+        Refresh();
+    }
+
+    public void OnCharliePressed()
+    {
+        Refresh();
+    }
+
+    public void OnDeltaPressed()
+    {
+        Refresh();
+    }
+
+    public void OnEchoPressed()
+    {
+        Refresh();
+    }
+
+    public void OnFoxtrotPressed()
+    {
+        Refresh();
+    }
+
+    public void OnGolfPressed()
+    {
+        Refresh();
+    }
+
+    public void OnHotelPressed()
+    {
+        Refresh();
     }
 }

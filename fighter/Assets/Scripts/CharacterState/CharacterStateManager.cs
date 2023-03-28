@@ -3,6 +3,8 @@ using UnityEngine.UI;
 
 public class CharacterStateManager : MonoBehaviour
 {
+    [SerializeField] private CharacterObject _character;
+    [SerializeField] private UpgradedStatsObject _upgradedStats;
     public float _maxHealth;
     public float _currentHealth;
     public int _damage;
@@ -11,8 +13,8 @@ public class CharacterStateManager : MonoBehaviour
     public int _critChance;
     public int _missChance;
     public int _bashChance;
-    [SerializeField] public Transform _attackPoint;
-    [SerializeField] public float _attackRange = 0.6f;
+    public float _attackRange = 0.6f;
+    public Transform _attackPoint;
 
     [SerializeField] private GameObject _effectOnHit;
     [SerializeField] private GameObject _effectOnCrit;
@@ -75,12 +77,12 @@ public class CharacterStateManager : MonoBehaviour
     {
         if (_isPlayer)
         {
-            _maxHealth = PlayerPrefs.GetInt("Health");
-            _damage = PlayerPrefs.GetInt("Damage");
-            _speed = PlayerPrefs.GetInt("Speed");
-            _critChance = PlayerPrefs.GetInt("CritChance");
-            _missChance = PlayerPrefs.GetInt("MissChance");
-            _bashChance = PlayerPrefs.GetInt("BashChance");
+            _maxHealth = _character._health + _upgradedStats.GetHealth();
+            _damage = _character._damage + _upgradedStats.GetDamage();
+            _speed = _character._speed + _upgradedStats.GetSpeed();
+            _critChance = _character._critChance + _upgradedStats.GetCritChance();
+            _missChance = _character._missChance + _upgradedStats.GetMissChance();
+            _bashChance = _character._bashChance + _upgradedStats.GetBashChance();
             _currentHealth = _maxHealth;
         }
         else

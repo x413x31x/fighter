@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a22d330704ab649b423009083a11a1, type: 3}
+  m_Name: BravoStrongman
+  m_EditorClassIdentifier: 
+  _name: BravoStrongman
+  _health: 1200
+  _damage: 45
+  _speed: 5
+  _attackTime: 0.8
+  _critChance: 17
+  _missChance: 17
+  _bashChance: 17
+  _icon: {fileID: 21300000, guid: e84803cc45475324f9ecdd59ddfa3d10, type: 3}
