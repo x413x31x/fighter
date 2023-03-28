@@ -78,7 +78,6 @@ public class CharacterStateManager : MonoBehaviour
             _maxHealth = PlayerPrefs.GetInt("Health");
             _damage = PlayerPrefs.GetInt("Damage");
             _speed = PlayerPrefs.GetInt("Speed");
-            _baseAttackTime = PlayerPrefs.GetFloat("AttackTime");
             _critChance = PlayerPrefs.GetInt("CritChance");
             _missChance = PlayerPrefs.GetInt("MissChance");
             _bashChance = PlayerPrefs.GetInt("BashChance");

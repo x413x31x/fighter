@@ -31,7 +31,8 @@ public class GameManager : MonoBehaviour
 
     private void CreatePlayer()
     {
-        CharacterStateManager player = Instantiate(_charactersPrefs[0]);
+        int randomIndex = Random.Range(0, _charactersPrefs.Count);
+        CharacterStateManager player = Instantiate(_charactersPrefs[randomIndex]);
         player.transform.position = _playerSpownPoint.transform.position;
         player.tag = "Player";
         player.gameObject.layer = LayerMask.NameToLayer("Player");
@@ -43,7 +44,8 @@ public class GameManager : MonoBehaviour
 
     private void CreateEnemy()
     {
-        CharacterStateManager enemy = Instantiate(_charactersPrefs[0]);
+        int randomEnemyIndex = Random.Range(0, _charactersPrefs.Count);
+        CharacterStateManager enemy = Instantiate(_charactersPrefs[randomEnemyIndex]);
         enemy.transform.position = _enemySpownPoint.transform.position;
         enemy.tag = "Enemy";
         enemy.gameObject.layer = LayerMask.NameToLayer("Enemy");

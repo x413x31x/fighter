@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: 3d91b491b58f843439e9697c81c38802
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4758c26fd0c914e4c9460465ec714a0c
+      internalID: -1569939589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 712
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d1f3bfe590c94458f93b43ac3d3965
+      internalID: -222278691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 712
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d3a23b1d725154a826f6e9de5c587f
+      internalID: 1117993881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_3
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 712
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361082ef2f2658c47a98ac71629eaac9
+      internalID: -123829512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_4
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 712
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6d823f5e0837043a640e345dd45c29
+      internalID: 1655695660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_5
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 712
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73a461a09159ea4eb49454b56740f92
+      internalID: 989350912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e1c5c3453e2e046856a7ef1dd2a031
+      internalID: -471913123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 356
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a797cdec77e3f141b3af5e7dc8cea89
+      internalID: -42267950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_8
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 356
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4c7541dc6ac3e48b7b4751ac7b2f8d
+      internalID: 114678284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_9
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 356
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c6a28b76f54bc4a8a58dce93bd9893
+      internalID: -1519695165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_10
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 356
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ced4624b20f0a641a27b68d405a50e8
+      internalID: 1319989667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_11
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 356
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4352ea8026377a741933187134c3a3ae
+      internalID: 211165392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7eb110d5de8704fb42d9aba2ecbd1a
+      internalID: -1355412022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f6354f9018a0b48b7c75c8205bf3fa
+      internalID: -1831596268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_14
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 0
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d57e3a042331fd49a688bdd346de823
+      internalID: 279831018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_15
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 0
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcb9434eb4a4e5469d2705ac0c3a76a
+      internalID: 1750991448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanWalking_16
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 0
+        width: 251
+        height: 356
+      alignment: 9
+      pivot: {x: 0.535, y: 0.406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d7fde6eefcdb74594e29c25c2a54eb
+      internalID: -1681103829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BravoStrongmanWalking_8: 114678284
+      BravoStrongmanWalking_15: 1750991448
+      BravoStrongmanWalking_0: -1569939589
+      BravoStrongmanWalking_7: -42267950
+      BravoStrongmanWalking_2: 1117993881
+      BravoStrongmanWalking_10: 1319989667
+      BravoStrongmanWalking_6: -471913123
+      BravoStrongmanWalking_3: -123829512
+      BravoStrongmanWalking_4: 1655695660
+      BravoStrongmanWalking_17: 561155189
+      BravoStrongmanWalking_5: 989350912
+      BravoStrongmanWalking_16: -1681103829
+      BravoStrongmanWalking_11: 211165392
+      BravoStrongmanWalking_13: -1831596268
+      BravoStrongmanWalking_14: 279831018
+      BravoStrongmanWalking_12: -1355412022
+      BravoStrongmanWalking_9: -1519695165
+      BravoStrongmanWalking_1: -222278691
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

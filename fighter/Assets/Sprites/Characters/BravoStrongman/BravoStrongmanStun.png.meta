@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: cc712c2acc2668a4caee39fa8e0cb62b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BravoStrongmanStun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 742
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1b200da1181454f9c682eb5de407ae
+      internalID: -1195716095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 742
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6aed2ada40500a45a7393bc28474c3c
+      internalID: 438301746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 742
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067e1df19d3dba04687daded9fc39c7c
+      internalID: 918219774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 742
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb9d2c190262a244a69fda8b84a8ae6
+      internalID: -1621124837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_4
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 742
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3459490bacd37a843a694cb7fb35be1f
+      internalID: -1694406691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8367a76260984e84e9cc5898c8e0b322
+      internalID: 985074036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 371
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9fd253ecaf9e14e93cc7a968ec911b
+      internalID: -377721350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_7
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 371
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8546a9cbe61b6434086921af898aac93
+      internalID: -54892898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 371
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d4ef13d9f60e54fac3db678e727b2f
+      internalID: 356677394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_9
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 371
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b3037fe8bc7354f9cf6bcab1aeb999
+      internalID: -2094255449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d283f3ef9d4a3946a54a6426ac90a2d
+      internalID: 1215173872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01078edcafbdaaa41954f4a86ddf689c
+      internalID: -96824511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanStun_12
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 266
+        height: 371
+      alignment: 9
+      pivot: {x: 0.55, y: 0.317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928aeeb4096a5914b97ce2fcb197b578
+      internalID: 301620105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BravoStrongmanStun_8: 356677394
+      BravoStrongmanStun_4: -1694406691
+      BravoStrongmanStun_9: -2094255449
+      BravoStrongmanStun_13: 1521374235
+      BravoStrongmanStun_5: 985074036
+      BravoStrongmanStun_1: 438301746
+      BravoStrongmanStun_2: 918219774
+      BravoStrongmanStun_6: -377721350
+      BravoStrongmanStun_10: 1215173872
+      BravoStrongmanStun_14: 474117229
+      BravoStrongmanStun_0: -1195716095
+      BravoStrongmanStun_3: -1621124837
+      BravoStrongmanStun_7: -54892898
+      BravoStrongmanStun_12: 301620105
+      BravoStrongmanStun_11: -96824511
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: 13fc0049e2ed1d148821e7bad798b041
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BravoStrongmanDead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70d3e68d4d24974eb62d33770d411ba
+      internalID: -1506548929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_1
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 724
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe9d5aede132af4783bd18b612a9a11
+      internalID: -1277086104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_2
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 724
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7d24eabd40a0d41955c66c6e98355c
+      internalID: -839103857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_3
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 724
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6258f10b0f5b14c870bd71a1f9f753
+      internalID: 1033002869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_4
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 724
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e25f54e25b4fc449e55f986293942b
+      internalID: -1624469229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c559f8df90d1c41a5b3bdca4f49482
+      internalID: 1685915523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_6
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 362
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73112ec2a83eb6041ba77e8653f74cdf
+      internalID: -369627143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_7
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 362
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2efa1c0115746d4f9aaa742c366851a
+      internalID: -1106104211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_8
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 362
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c191bb421730c045b2e10fe39ca970a
+      internalID: 877421907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_9
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 362
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8646de8d993bce84794c086672c752dd
+      internalID: -642430939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0983ccae790e7704b8954c870ac479b9
+      internalID: -934024592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_11
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6206458567ffc48a7c964e800c7127
+      internalID: 678279719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BravoStrongmanDead_12
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 0
+        width: 391
+        height: 362
+      alignment: 9
+      pivot: {x: 0.414, y: 0.324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571540be6baa3ff4888adc3fa976e736
+      internalID: -1715710227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BravoStrongmanDead_4: -1624469229
+      BravoStrongmanDead_3: 1033002869
+      BravoStrongmanDead_2: -839103857
+      BravoStrongmanDead_7: -1106104211
+      BravoStrongmanDead_9: -642430939
+      BravoStrongmanDead_6: -369627143
+      BravoStrongmanDead_0: -1506548929
+      BravoStrongmanDead_5: 1685915523
+      BravoStrongmanDead_11: 678279719
+      BravoStrongmanDead_12: -1715710227
+      BravoStrongmanDead_1: -1277086104
+      BravoStrongmanDead_8: 877421907
+      BravoStrongmanDead_10: -934024592
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

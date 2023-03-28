@@ -12,7 +12,6 @@ public class UIManager : MonoBehaviour
         set => PlayerPrefs.SetInt("Gold", value);
     }
     [SerializeField] private TMP_Text _goldCounter;
-
     private int _wins
     {
         get => PlayerPrefs.GetInt("Wins");
@@ -55,25 +54,72 @@ public class UIManager : MonoBehaviour
         get => PlayerPrefs.GetInt("BashChance");
         set => PlayerPrefs.SetInt("BashChance", value);
     }
-    [SerializeField] private TMP_Text _discription;
+    [SerializeField] private TMP_Text _description;
 
+    private int _goldForHealth
+    {
+        get => PlayerPrefs.GetInt("GoldForHealth");
+        set => PlayerPrefs.SetInt("GoldForHealth", value);
+    }
+    [SerializeField] private TMP_Text _upgradeHealth;
+    private int _goldForDamage
+    {
+        get => PlayerPrefs.GetInt("GoldForDamage");
+        set => PlayerPrefs.SetInt("GoldForDamage", value);
+    }
+    [SerializeField] private TMP_Text _upgradeDamage;
+    private int _goldForSpeed
+    {
+        get => PlayerPrefs.GetInt("GoldForSpeed");
+        set => PlayerPrefs.SetInt("GoldForSpeed", value);
+    }
+    [SerializeField] private TMP_Text _upgradeSpeed;
+    private int _goldForCritChance
+    {
+        get => PlayerPrefs.GetInt("GoldForCritChance");
+        set => PlayerPrefs.SetInt("GoldForCritChance", value);
+    }
+    [SerializeField] private TMP_Text _upgradeCritChance;
+    private int _goldForMissChance
+    {
+        get => PlayerPrefs.GetInt("GoldForMissChance");
+        set => PlayerPrefs.SetInt("GoldForMissChance", value);
+    }
+    [SerializeField] private TMP_Text _upgradeMissChance;
+    private int _goldForBashChance
+    {
+        get => PlayerPrefs.GetInt("GoldForBashChance");
+        set => PlayerPrefs.SetInt("GoldForBashChance", value);
+    }
+    [SerializeField] private TMP_Text _upgradebashChance;
 
     private void Start()
     {
         CheckPrefs();
         SetResources();
-        SetDiscription();
+        SetDescription();
+        SetUpgrades();
     }
 
-    public void SetResources()
+    private void SetResources()
     {
         _goldCounter.text = _gold.ToString();
         _winsCounter.text = _wins.ToString();
     }
 
-    public void SetDiscription()
+    private void SetUpgrades()
     {
-        _discription.text =
+        _upgradeHealth.text = _goldForHealth.ToString() + " gold = 200 health";
+        _upgradeDamage.text = _goldForDamage.ToString() + " gold = 5 damage";
+        _upgradeSpeed.text = _goldForSpeed.ToString() + " gold = 1 speed";
+        _upgradeCritChance.text = _goldForCritChance.ToString() + " gold = 1% crit";
+        _upgradeMissChance.text = _goldForMissChance.ToString() + " gold = 1% miss";
+        _upgradebashChance.text = _goldForBashChance.ToString() + " gold = 1% bash";
+    }
+
+    private void SetDescription()
+    {
+        _description.text =
             "Health: " + _health.ToString() +
             "\nDamage: " + _damage.ToString() +
             "\nSpeed: " + _speed.ToString() +
@@ -83,43 +129,72 @@ public class UIManager : MonoBehaviour
             "\nBash chance: " + _bashChance.ToString() + "%";
     }
 
+    public void OnHealthPressed()
+    {
+        if(_goldForHealth > _gold)
+        {
+            return;
+        }
+        _health += 200;
+        _gold -= _goldForHealth;
+        _goldForHealth *= 2;
+
+        SetDescription();
+        SetUpgrades();
+    }
+
+    public void OnDamagePressed()
+    {
+        SetDescription();
+        SetUpgrades();
+    }
+
+    public void OnSpeedPressed()
+    {
+        SetDescription();
+        SetUpgrades();
+    }
+
+    public void OnCritChancePressed()
+    {
+        SetDescription();
+        SetUpgrades();
+    }
+
+    public void OnMissChancePressed()
+    {
+        SetDescription();
+        SetUpgrades();
+    }
+
+    public void OnBashChancePressed()
+    {
+        SetDescription();
+        SetUpgrades();
+    }
+
     private void CheckPrefs()
     {
         if (!PlayerPrefs.HasKey("Gold"))
         {
             _gold = 100;
-        }
-        if (!PlayerPrefs.HasKey("Wins"))
-        {
             _wins = 0;
-        }
-        if (!PlayerPrefs.HasKey("Health"))
-        {
             _health = 1000;
-        }
-        if (!PlayerPrefs.HasKey("Damage"))
-        {
             _damage = 25;
-        }
-        if (!PlayerPrefs.HasKey("Speed"))
-        {
             _speed = 5;
-        }
-        if (!PlayerPrefs.HasKey("AttackTime"))
-        {
             _attackTime = 0.5f;
-        }
-        if (!PlayerPrefs.HasKey("CritChance"))
-        {
             _critChance = 15;
-        }
-        if (!PlayerPrefs.HasKey("MissChance"))
-        {
             _missChance = 15;
-        }
-        if (!PlayerPrefs.HasKey("BashChance"))
-        {
             _bashChance = 15;
+        }
+        if (!PlayerPrefs.HasKey("GoldForHealth"))
+        {
+            _goldForHealth = 200;
+            _goldForDamage = 200;
+            _goldForSpeed = 200;
+            _goldForCritChance = 200;
+            _goldForMissChance = 200;
+            _goldForBashChance = 200;
         }
     }
 }

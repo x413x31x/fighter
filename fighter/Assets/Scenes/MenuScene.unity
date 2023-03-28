@@ -1569,8 +1569,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278816723
-  m_fontColor: {r: 0.82745105, g: 0.56078434, b: 0.03529412, a: 1}
+    rgba: 4278954746
+  m_fontColor: {r: 0.9803922, g: 0.6666667, b: 0.043137256, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3810,7 +3810,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 866332524}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1859852998}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnHealthPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &866332524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5606,8 +5618,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278816723
-  m_fontColor: {r: 0.82745105, g: 0.56078434, b: 0.03529412, a: 1}
+    rgba: 4278954746
+  m_fontColor: {r: 0.9803922, g: 0.6666667, b: 0.043137256, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6536,7 +6548,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b6c7349b0febe4042858e4dee3ba2470, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e84803cc45475324f9ecdd59ddfa3d10, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7037,8 +7049,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278816723
-  m_fontColor: {r: 0.82745105, g: 0.56078434, b: 0.03529412, a: 1}
+    rgba: 4278954746
+  m_fontColor: {r: 0.9803922, g: 0.6666667, b: 0.043137256, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -8476,8 +8488,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278816723
-  m_fontColor: {r: 0.82745105, g: 0.56078434, b: 0.03529412, a: 1}
+    rgba: 4278954746
+  m_fontColor: {r: 0.9803922, g: 0.6666667, b: 0.043137256, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -8727,7 +8739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1683586169}
   m_Layer: 5
-  m_Name: AlphaSpartan (1)
+  m_Name: BravoStrongman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9318,20 +9330,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health: 1000
+  m_text: 'Health: 1200
 
-    Damage: 50
+    Damage: 45
 
     Speed: 5
 
-    Attack time: 0.5
+    Attack time: 0.8
 
     Crit
-    chance: 25%
+    chance: 17%
 
-    Miss chance: 25%
+    Miss chance: 17%
 
-    Bash chance 25%'
+    Bash chance 17%'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10214,8 +10226,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278816723
-  m_fontColor: {r: 0.82745105, g: 0.56078434, b: 0.03529412, a: 1}
+    rgba: 4278954746
+  m_fontColor: {r: 0.9803922, g: 0.6666667, b: 0.043137256, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -10313,7 +10325,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _goldCounter: {fileID: 1118944609}
   _winsCounter: {fileID: 1432927344}
-  _discription: {fileID: 1287415276}
+  _description: {fileID: 1287415276}
+  _upgradeHealth: {fileID: 1656830853}
+  _upgradeDamage: {fileID: 1879093122}
+  _upgradeSpeed: {fileID: 268393813}
+  _upgradeCritChance: {fileID: 1857427686}
+  _upgradeMissChance: {fileID: 1448490991}
+  _upgradebashChance: {fileID: 1270220706}
 --- !u!4 &1859852999
 Transform:
   m_ObjectHideFlags: 0
@@ -10396,8 +10414,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278816723
-  m_fontColor: {r: 0.82745105, g: 0.56078434, b: 0.03529412, a: 1}
+    rgba: 4278954746
+  m_fontColor: {r: 0.9803922, g: 0.6666667, b: 0.043137256, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11257,18 +11275,18 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Health: 1000
 
-    Damage: 50
+    Damage: 25
 
-    Speed: 5
+    Speed: 6
 
     Attack time: 0.5
 
     Crit
-    chance: 25%
+    chance: 15%
 
-    Miss chance: 25%
+    Miss chance: 15%
 
-    Bash chance 25%'
+    Bash chance 15%'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
