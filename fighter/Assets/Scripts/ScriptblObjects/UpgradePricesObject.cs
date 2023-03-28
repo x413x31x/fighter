@@ -5,6 +5,14 @@ using UnityEngine;
 
 public class UpgradePricesObject : ScriptableObject
 {
+    public int _bravo;
+    public int _charlie;
+    public int _delta;
+    public int _echo;
+    public int _foxtrot;
+    public int _golf;
+    public int _hotel;
+
     private int _goldForHealth
     {
         get => PlayerPrefs.GetInt("GoldForHealth");
@@ -34,6 +42,42 @@ public class UpgradePricesObject : ScriptableObject
     {
         get => PlayerPrefs.GetInt("GoldForBashChance");
         set => PlayerPrefs.SetInt("GoldForBashChance", value);
+    }
+
+    private int _bravoIsBought
+    {
+        get => PlayerPrefs.GetInt("BravoIsBought");
+        set => PlayerPrefs.SetInt("BravoIsBought", value);
+    }
+    private int _charlieIsBought
+    {
+        get => PlayerPrefs.GetInt("CharlieIsBought");
+        set => PlayerPrefs.SetInt("CharlieIsBought", value);
+    }
+    private int _deltaIsBought
+    {
+        get => PlayerPrefs.GetInt("DeltaIsBought");
+        set => PlayerPrefs.SetInt("DeltaIsBought", value);
+    }
+    private int _echoIsBought
+    {
+        get => PlayerPrefs.GetInt("EchoIsBought");
+        set => PlayerPrefs.SetInt("EchoIsBought", value);
+    }
+    private int _foxtrotIsBought
+    {
+        get => PlayerPrefs.GetInt("FoxtrotIsBought");
+        set => PlayerPrefs.SetInt("FoxtrotIsBought", value);
+    }
+    private int _golfIsBought
+    {
+        get => PlayerPrefs.GetInt("GolfIsBought");
+        set => PlayerPrefs.SetInt("GolfIsBought", value);
+    }
+    private int _hotelIsBought
+    {
+        get => PlayerPrefs.GetInt("HotelIsBought");
+        set => PlayerPrefs.SetInt("HotelIsBought", value);
     }
 
     public int GetGoldForHealth()
@@ -142,5 +186,103 @@ public class UpgradePricesObject : ScriptableObject
             _goldForBashChance = 200;
         }
         _goldForBashChance *= 2;
+    }
+
+    public int CheckBravo()
+    {
+        if (!PlayerPrefs.HasKey("BravoIsBought"))
+        {
+            _bravoIsBought = 0;
+        }
+        return _bravoIsBought;
+    }
+
+    public void SetBravoTrue()
+    {
+        _bravoIsBought = 1;
+    }
+
+    public int CheckCharlie()
+    {
+        if (!PlayerPrefs.HasKey("CharlieIsBought"))
+        {
+            _charlieIsBought = 0;
+        }
+        return _charlieIsBought;
+    }
+
+    public void SetCharlieTrue()
+    {
+        _charlieIsBought = 1;
+    }
+
+    public int CheckDelta()
+    {
+        if (!PlayerPrefs.HasKey("DeltaIsBought"))
+        {
+            _deltaIsBought = 0;
+        }
+        return _deltaIsBought;
+    }
+
+    public void SetDeltaTrue()
+    {
+        _deltaIsBought = 1;
+    }
+
+    public int CheckEcho()
+    {
+        if (!PlayerPrefs.HasKey("EchoIsBought"))
+        {
+            _echoIsBought = 0;
+        }
+        return _echoIsBought;
+    }
+
+    public void SetEchoTrue()
+    {
+        _echoIsBought = 1;
+    }
+
+    public int CheckFoxtrot()
+    {
+        if (!PlayerPrefs.HasKey("FoxtrotIsBought"))
+        {
+            _foxtrotIsBought = 0;
+        }
+        return _foxtrotIsBought;
+    }
+
+    public void SetFoxtrotTrue()
+    {
+        _foxtrotIsBought = 1;
+    }
+
+    public int CheckGolf()
+    {
+        if (!PlayerPrefs.HasKey("GolfIsBought"))
+        {
+            _golfIsBought = 0;
+        }
+        return _golfIsBought;
+    }
+
+    public void SetGolfTrue()
+    {
+        _golfIsBought = 1;
+    }
+
+    public int CheckHotel()
+    {
+        if (!PlayerPrefs.HasKey("HotelIsBought"))
+        {
+            _hotelIsBought = 0;
+        }
+        return _hotelIsBought;
+    }
+
+    public void SetHotelTrue()
+    {
+        _hotelIsBought = 1;
     }
 }

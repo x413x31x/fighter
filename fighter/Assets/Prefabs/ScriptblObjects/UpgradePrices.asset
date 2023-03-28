@@ -12,3 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211b9a0dc53a7d24dbe5adfb621ee152, type: 3}
   m_Name: UpgradePrices
   m_EditorClassIdentifier: 
+  _bravo: 2500
+  _charlie: 2500
+  _delta: 5000
+  _echo: 5000
+  _foxtrot: 7500
+  _golf: 7500
+  _hotel: 10000
