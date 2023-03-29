@@ -20,5 +20,5 @@ MonoBehaviour:
   _attackRange: 1
   _critChance: 20
   _missChance: 17
-  _bashChance: 14
+  _bashChance: 13
   _icon: {fileID: 21300000, guid: 29a114857f1affd47ad898da98c0b98b, type: 3}

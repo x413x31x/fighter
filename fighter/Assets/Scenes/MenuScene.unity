@@ -1424,20 +1424,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health: 1000
+  m_text: 'Health: 800
 
-    Damage: 25
+    Damage: 45
 
-    Speed: 6
+    Speed: 7
 
-    Attack time: 0.5
+    Attack time: 0.7
 
     Crit
-    chance: 15%
+    chance: 20%
 
-    Miss chance: 15%
+    Miss chance: 17%
 
-    Bash chance 15%'
+    Bash chance 13%'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2175,7 +2175,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b6c7349b0febe4042858e4dee3ba2470, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 60efa40fe05ae0545895f149419534f5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2203,7 +2203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230311443}
   m_Layer: 5
-  m_Name: Charlie
+  m_Name: CharlieNinja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2889,7 +2889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 368495503}
   m_Layer: 5
-  m_Name: Golf
+  m_Name: GolfYoung
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5013,7 +5013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 804893168}
   m_Layer: 5
-  m_Name: Echo
+  m_Name: EchoWarrior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5101,20 +5101,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health: 1000
+  m_text: 'Health: 1666
 
-    Damage: 25
+    Damage: 39
 
     Speed: 6
 
-    Attack time: 0.5
+    Attack time: 0.66
 
     Crit
-    chance: 15%
+    chance: 13%
 
-    Miss chance: 15%
+    Miss chance: 13%
 
-    Bash chance 15%'
+    Bash chance 26%'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6261,7 +6261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1001283831}
   m_Layer: 5
-  m_Name: Foxtrot
+  m_Name: FoxtrotElfy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6428,18 +6428,18 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Health: 1000
 
-    Damage: 25
+    Damage: 40
 
-    Speed: 6
+    Speed: 7
 
-    Attack time: 0.5
+    Attack time: 0.6
 
     Crit
-    chance: 15%
+    chance: 17%
 
-    Miss chance: 15%
+    Miss chance: 17%
 
-    Bash chance 15%'
+    Bash chance 17%'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7076,7 +7076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b6c7349b0febe4042858e4dee3ba2470, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 430b7fd238bf46e4c870d7a30be9832f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7287,18 +7287,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health: 1000
+  m_text: 'Health: 1400
 
-    Damage: 25
+    Damage: 40
 
-    Speed: 6
+    Speed: 5
 
-    Attack time: 0.5
+    Attack time: 0.65
 
     Crit
-    chance: 15%
+    chance: 17%
 
-    Miss chance: 15%
+    Miss chance: 18%
 
     Bash chance 15%'
   m_isRightToLeft: 0
@@ -9203,7 +9203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b6c7349b0febe4042858e4dee3ba2470, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 29a114857f1affd47ad898da98c0b98b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9482,7 +9482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1375585282}
   m_Layer: 5
-  m_Name: Hotel
+  m_Name: HotelDevil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11896,7 +11896,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b6c7349b0febe4042858e4dee3ba2470, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 755f822df1a43174ea39e3883313453e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12438,20 +12438,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health: 1000
+  m_text: 'Health: 1200
 
-    Damage: 25
+    Damage: 45
 
-    Speed: 6
+    Speed: 5
 
-    Attack time: 0.5
+    Attack time: 0.8
 
     Crit
-    chance: 15%
+    chance: 17%
 
-    Miss chance: 15%
+    Miss chance: 10%
 
-    Bash chance 15%'
+    Bash chance 20%'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12797,7 +12797,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b6c7349b0febe4042858e4dee3ba2470, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6299f8089e0c6764bb0aeda70fdef531, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13007,20 +13007,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health: 1000
+  m_text: 'Health: 800
 
-    Damage: 25
+    Damage: 40
 
     Speed: 6
 
-    Attack time: 0.5
+    Attack time: 0.55
 
     Crit
-    chance: 15%
+    chance: 13%
 
-    Miss chance: 15%
+    Miss chance: 20%
 
-    Bash chance 15%'
+    Bash chance 17%'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14029,20 +14029,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health: 1000
+  m_text: 'Health: 800
 
-    Damage: 25
+    Damage: 30
 
-    Speed: 6
+    Speed: 8
 
     Attack time: 0.5
 
     Crit
-    chance: 15%
+    chance: 17%
 
-    Miss chance: 15%
+    Miss chance: 20%
 
-    Bash chance 15%'
+    Bash chance 10%'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14151,6 +14151,12 @@ MonoBehaviour:
   _allCharacters:
   - {fileID: 11400000, guid: 4043531ad77a7174788376dd547fe048, type: 2}
   - {fileID: 11400000, guid: 27526a624989957499afa984d0aa9816, type: 2}
+  - {fileID: 11400000, guid: 473d90150fd657c4f944f50686c038b3, type: 2}
+  - {fileID: 11400000, guid: c854415904a503d4bb1d7399a7d703b0, type: 2}
+  - {fileID: 11400000, guid: 2ef3cc2680aa1394db9f98239dc813bc, type: 2}
+  - {fileID: 11400000, guid: 294f36ef16e57c24ea699ea0ee849287, type: 2}
+  - {fileID: 11400000, guid: 07bba7bc933f84747970a12e5cb7614f, type: 2}
+  - {fileID: 11400000, guid: be85a5e4584167944ad3ff87096ca3e6, type: 2}
   _resources: {fileID: 11400000, guid: 52da19525ba99b84db0f545677b07331, type: 2}
   _upgradedStats: {fileID: 11400000, guid: a710182c5c4fa7048a59caf331ccef01, type: 2}
   _prices: {fileID: 11400000, guid: 6716c9aae2e5c104599db98de2809f58, type: 2}
@@ -14379,7 +14385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b6c7349b0febe4042858e4dee3ba2470, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c827e24b9feaaad4dab4b877983361fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15467,7 +15473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2055671219}
   m_Layer: 5
-  m_Name: Delta
+  m_Name: DeltaRobber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

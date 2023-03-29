@@ -45,6 +45,8 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
+        //PlayerPrefs.DeleteAll();
+       // _resources.SetGold(100000);
         Refresh();
     }
 
@@ -276,7 +278,7 @@ public class UIManager : MonoBehaviour
     {
         if (_prices.CheckCharlie() == 1)
         {
-            _currentCharacterName = "Charlie"; // NEED RENAME
+            _currentCharacterName = "CharlieNinja";
             Refresh();
             return;
         }
@@ -286,7 +288,7 @@ public class UIManager : MonoBehaviour
         }
         _resources.SetGold(-_prices._charlie);
         _prices.SetCharlieTrue();
-        _currentCharacterName = "Charlie";// NEED RENAME
+        _currentCharacterName = "CharlieNinja";
 
         Refresh();
     }
@@ -295,7 +297,7 @@ public class UIManager : MonoBehaviour
     {
         if (_prices.CheckDelta() == 1)
         {
-            _currentCharacterName = "Delta";// NEED RENAME
+            _currentCharacterName = "DeltaRobber";
             Refresh();
             return;
         }
@@ -305,7 +307,7 @@ public class UIManager : MonoBehaviour
         }
         _resources.SetGold(-_prices._delta);
         _prices.SetDeltaTrue();
-        _currentCharacterName = "Delta";// NEED RENAME
+        _currentCharacterName = "DeltaRobber";
 
         Refresh();
     }
@@ -314,7 +316,7 @@ public class UIManager : MonoBehaviour
     {
         if (_prices.CheckEcho() == 1)
         {
-            _currentCharacterName = "Echo";// NEED RENAME
+            _currentCharacterName = "EchoWarrior";
             Refresh();
             return;
         }
@@ -324,7 +326,7 @@ public class UIManager : MonoBehaviour
         }
         _resources.SetGold(-_prices._echo);
         _prices.SetEchoTrue();
-        _currentCharacterName = "Echo";// NEED RENAME
+        _currentCharacterName = "EchoWarrior";
 
         Refresh();
     }
@@ -333,7 +335,7 @@ public class UIManager : MonoBehaviour
     {
         if (_prices.CheckFoxtrot() == 1)
         {
-            _currentCharacterName = "Foxtrot";// NEED RENAME
+            _currentCharacterName = "FoxtrotElfy";
             Refresh();
             return;
         }
@@ -343,7 +345,7 @@ public class UIManager : MonoBehaviour
         }
         _resources.SetGold(-_prices._foxtrot);
         _prices.SetFoxtrotTrue();
-        _currentCharacterName = "Foxtrot";// NEED RENAME
+        _currentCharacterName = "FoxtrotElfy";
 
         Refresh();
     }
@@ -352,7 +354,7 @@ public class UIManager : MonoBehaviour
     {
         if (_prices.CheckGolf() == 1)
         {
-            _currentCharacterName = "Golf";// NEED RENAME
+            _currentCharacterName = "GolfYoung";
             Refresh();
             return;
         }
@@ -362,7 +364,7 @@ public class UIManager : MonoBehaviour
         }
         _resources.SetGold(-_prices._golf);
         _prices.SetGolfTrue();
-        _currentCharacterName = "Golf";// NEED RENAME
+        _currentCharacterName = "GolfYoung";
 
         Refresh();
     }
@@ -371,7 +373,7 @@ public class UIManager : MonoBehaviour
     {
         if (_prices.CheckHotel() == 1)
         {
-            _currentCharacterName = "Hotel";// NEED RENAME
+            _currentCharacterName = "HotelDevil";
             Refresh();
             return;
         }
@@ -381,7 +383,7 @@ public class UIManager : MonoBehaviour
         }
         _resources.SetGold(-_prices._hotel);
         _prices.SetHotelTrue();
-        _currentCharacterName = "Hotel";// NEED RENAME
+        _currentCharacterName = "HotelDevil";
 
         Refresh();
     }

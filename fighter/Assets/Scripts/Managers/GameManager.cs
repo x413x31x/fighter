@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private List<CharacterStateManager> _charactersPrefs;
+    private string _currentPlayerCharacterName;
     [SerializeField] private GameObject _cinemachineCameraPref;
     private Button _attackButton;
 
@@ -31,8 +32,7 @@ public class GameManager : MonoBehaviour
 
     private void CreatePlayer()
     {
-        int randomIndex = Random.Range(0, _charactersPrefs.Count);
-        CharacterStateManager player = Instantiate(_charactersPrefs[randomIndex]);
+        CharacterStateManager player = Instantiate(_charactersPrefs[FindPlayerCharacterIndex()]);
         player.transform.position = _playerSpownPoint.transform.position;
         player.tag = "Player";
         player.gameObject.layer = LayerMask.NameToLayer("Player");
@@ -58,6 +58,47 @@ public class GameManager : MonoBehaviour
     {
         GameObject camera = Instantiate(_cinemachineCameraPref);
         camera.GetComponent<Cinemachine.CinemachineVirtualCamera>().Follow = _player.transform;
+    }
+
+    private int FindPlayerCharacterIndex()
+    {
+        _currentPlayerCharacterName = PlayerPrefs.GetString("CurrentCharacter");
+        if(_currentPlayerCharacterName == "AlphaSpartan")
+        {
+            return 0;
+        }
+        else if(_currentPlayerCharacterName == "BravoStrongman")
+        {
+            return 1;
+        }
+        else if (_currentPlayerCharacterName == "CharlieNinja")
+        {
+            return 2;
+        }
+        else if (_currentPlayerCharacterName == "DeltaRobber")
+        {
+            return 3;
+        }
+        else if (_currentPlayerCharacterName == "EchoWarrior")
+        {
+            return 4;
+        }
+        else if (_currentPlayerCharacterName == "FoxtrotElfy")
+        {
+            return 5;
+        }
+        else if (_currentPlayerCharacterName == "GolfYoung")
+        {
+            return 6;
+        }
+        else if (_currentPlayerCharacterName == "HotelDevil")
+        {
+            return 7;
+        }
+        else
+        {
+            return 0;
+        }
     }
 
     private void GameOver()
