@@ -127,7 +127,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HotelDevilIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 359
+        height: 344
+      alignment: 9
+      pivot: {x: 0.637, y: 0.333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad08c64b8748cc041989c04ea3a28341
+      internalID: -439787283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilIdle_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 688
+        width: 359
+        height: 344
+      alignment: 9
+      pivot: {x: 0.637, y: 0.333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c083b6117884003438c30b164a7119e7
+      internalID: -956369400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilIdle_2
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 688
+        width: 359
+        height: 344
+      alignment: 9
+      pivot: {x: 0.637, y: 0.333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45181c17898014b4da21dec4e803ae92
+      internalID: -355388797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilIdle_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 359
+        height: 344
+      alignment: 9
+      pivot: {x: 0.637, y: 0.333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ceca782d53f9334db243f2264392484
+      internalID: 566660292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilIdle_4
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 344
+        width: 359
+        height: 344
+      alignment: 9
+      pivot: {x: 0.637, y: 0.333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bed77be9eddda44588b457ab965a616
+      internalID: 537122307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilIdle_5
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 344
+        width: 359
+        height: 344
+      alignment: 9
+      pivot: {x: 0.637, y: 0.333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee67da7426ec88041b973dc71615080a
+      internalID: 808655280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilIdle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 359
+        height: 344
+      alignment: 9
+      pivot: {x: 0.637, y: 0.333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0766fa4a997c892468d93f08a5d99f62
+      internalID: -863812051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilIdle_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 359
+        height: 344
+      alignment: 9
+      pivot: {x: 0.637, y: 0.333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d50db151f5e7624a8d5abccc22aa7f2
+      internalID: -146006898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilIdle_8
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 0
+        width: 359
+        height: 344
+      alignment: 9
+      pivot: {x: 0.637, y: 0.333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e301d307d23924fbc560927268b159
+      internalID: 426950338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +327,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HotelDevilIdle_6: -863812051
+      HotelDevilIdle_4: 537122307
+      HotelDevilIdle_5: 808655280
+      HotelDevilIdle_3: 566660292
+      HotelDevilIdle_7: -146006898
+      HotelDevilIdle_1: -956369400
+      HotelDevilIdle_2: -355388797
+      HotelDevilIdle_8: 426950338
+      HotelDevilIdle_0: -439787283
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

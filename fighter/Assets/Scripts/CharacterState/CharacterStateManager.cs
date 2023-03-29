@@ -5,15 +5,15 @@ public class CharacterStateManager : MonoBehaviour
 {
     [SerializeField] private CharacterObject _character;
     [SerializeField] private UpgradedStatsObject _upgradedStats;
-    public float _maxHealth;
-    public float _currentHealth;
-    public int _damage;
-    public int _speed;
-    public float _baseAttackTime;
-    public int _critChance;
-    public int _missChance;
-    public int _bashChance;
-    public float _attackRange = 0.6f;
+    [HideInInspector] public float _maxHealth;
+    [HideInInspector] public float _currentHealth;
+    [HideInInspector] public int _damage;
+    [HideInInspector] public int _speed;
+    [HideInInspector] public float _baseAttackTime;
+    [HideInInspector] public int _critChance;
+    [HideInInspector] public int _missChance;
+    [HideInInspector] public int _bashChance;
+    [HideInInspector] public float _attackRange;
     public Transform _attackPoint;
 
     [SerializeField] private GameObject _effectOnHit;
@@ -30,27 +30,27 @@ public class CharacterStateManager : MonoBehaviour
     public CharacterDieState _dieState = new CharacterDieState();
     public CharacterStunState _stunState = new CharacterStunState();
 
-    public Animator _animatorController;
-    public Rigidbody2D _rigidBody;
+    [HideInInspector] public Animator _animatorController;
+    [HideInInspector] public Rigidbody2D _rigidBody;
 
-    public Joystick _joystick;
-    public Button _attackButton;
+    [HideInInspector] public Joystick _joystick;
+    [HideInInspector] public Button _attackButton;
 
-    public DirectionState _directionState = DirectionState.Right;
-    public Vector2 _moveDerection;
-    public Vector2 _moveVelocity;
-    public Transform _playerPosition;
+    [HideInInspector] public DirectionState _directionState = DirectionState.Right;
+    [HideInInspector] public Vector2 _moveDerection;
+    [HideInInspector] public Vector2 _moveVelocity;
+    [HideInInspector] public Transform _playerPosition;
 
-    public float _attackCooldown = 0f;
+    [HideInInspector] public float _attackCooldown = 0f;
     private LayerMask _enemyLayer;
     private LayerMask _playerLayer;
-    
-    public string _nickname = "Character";
 
-    public float _stunDuration = 2f;
+    [HideInInspector] public string _nickname = "Character";
+
+    [HideInInspector] public float _stunDuration = 2f;
 
     public bool _isPlayer = true;
-    public bool _isDead = false;
+    [HideInInspector] public bool _isDead = false;
 
 
     private void Start()
@@ -80,6 +80,8 @@ public class CharacterStateManager : MonoBehaviour
             _maxHealth = _character._health + _upgradedStats.GetHealth();
             _damage = _character._damage + _upgradedStats.GetDamage();
             _speed = _character._speed + _upgradedStats.GetSpeed();
+            _baseAttackTime = _character._attackTime;
+            _attackRange = _character._attackRange;
             _critChance = _character._critChance + _upgradedStats.GetCritChance();
             _missChance = _character._missChance + _upgradedStats.GetMissChance();
             _bashChance = _character._bashChance + _upgradedStats.GetBashChance();
@@ -87,21 +89,14 @@ public class CharacterStateManager : MonoBehaviour
         }
         else
         {
-            int randomHealth = Random.Range(1, 6);
-            if(randomHealth == 2) _maxHealth += 200;
-            else if(randomHealth == 3) _maxHealth += 400;
-            else if (randomHealth == 4) _maxHealth += 600;
-            else if (randomHealth == 5) _maxHealth += 800;
-            else if (randomHealth == 6) _maxHealth += 1000;
-
-            int randomDamage = Random.Range(1, 6);
-            if (randomDamage == 2) _maxHealth += 5;
-            else if (randomDamage == 3) _damage += 10;
-            else if (randomDamage == 4) _damage += 15;
-            else if (randomDamage == 5) _damage += 20;
-            else if (randomDamage == 6) _damage += 25;
-
-            _speed += Random.Range(0, 5);
+            _maxHealth = _character._health;
+            _damage = _character._damage;
+            _speed = _character._speed;
+            _baseAttackTime = _character._attackTime;
+            _attackRange = _character._attackRange;
+            _critChance = _character._critChance;
+            _missChance = _character._missChance;
+            _bashChance = _character._bashChance;
             _currentHealth = _maxHealth;
         }
     }

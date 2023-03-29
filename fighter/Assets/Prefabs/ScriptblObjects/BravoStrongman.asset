@@ -17,7 +17,8 @@ MonoBehaviour:
   _damage: 45
   _speed: 5
   _attackTime: 0.8
+  _attackRange: 0.75
   _critChance: 17
-  _missChance: 17
-  _bashChance: 17
+  _missChance: 10
+  _bashChance: 20
   _icon: {fileID: 21300000, guid: e84803cc45475324f9ecdd59ddfa3d10, type: 3}

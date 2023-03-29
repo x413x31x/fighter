@@ -401,27 +401,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: EchoWarriorDead_13
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 0
-        width: 347
-        height: 313
-      alignment: 9
-      pivot: {x: 0.324, y: 0.224}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13b24c2227a450345b67cc5ee44f13f4
-      internalID: -1383644752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []

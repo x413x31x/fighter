@@ -380,37 +380,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &228849415
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 228849416}
-  m_Layer: 0
-  m_Name: CharlieNinja
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &228849416
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 228849415}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &406332925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,6 +1070,12 @@ MonoBehaviour:
   _charactersPrefs:
   - {fileID: 7458498263583839942, guid: e86cae44ce41fbb468ed20efd736e16d, type: 3}
   - {fileID: 8208029909479659435, guid: 70eba24b7ab285343ae9d590444bfeee, type: 3}
+  - {fileID: 5710207162540893935, guid: 02dc83dde302f564a92e376ed45311d9, type: 3}
+  - {fileID: 2802751754119532741, guid: 61dd435db5b653847ae68baf449acbda, type: 3}
+  - {fileID: 3906904953909330153, guid: bf497ef5bcb27924aa5d43c60b26bc96, type: 3}
+  - {fileID: 2514899997747260156, guid: ccbc80b420e36da4a8a0bcdb169b19cc, type: 3}
+  - {fileID: 2061110461440858286, guid: e776b4ae2c576d146b36b0da6df23053, type: 3}
+  - {fileID: 1588937827238467660, guid: c7b7d4436d91b2d4e94ea566645cfd55, type: 3}
   _cinemachineCameraPref: {fileID: 5806543651410414544, guid: c0386da3cdaa0624392748c7961e24f6, type: 3}
   _playerSpownPoint: {fileID: 1342620358}
   _enemySpownPoint: {fileID: 1682952176}

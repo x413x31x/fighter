@@ -127,7 +127,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HotelDevilDead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1110
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d161e7d1157ad54eb267032b8fc031d
+      internalID: -1795055076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1110
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3b647d04bd7264ebdfe5f0abd27c35
+      internalID: 1096476952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_2
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1110
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964d877a5936f544877ded1e2eadb9e
+      internalID: -1516869421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_3
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1110
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f5aa47ec877e741b615afbaed08e9b
+      internalID: 164537816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_4
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1110
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9ef90495d48b5498902e4c509df7fc
+      internalID: -1896823848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 555
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c27a2b5e6945041987dd319fb91d18
+      internalID: 1446588953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_6
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 555
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f3f2673bf82584888d712e5817314d
+      internalID: -18700147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_7
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 555
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02bf220d796c7748a87699664ca2976
+      internalID: -496789799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_8
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 555
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bc5326bf13502418c5f7e9ce1bd02f
+      internalID: 924238397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_9
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 555
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a495cb56fc6253478e744d17991356e
+      internalID: -519338581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1501874eb9c22c54a95a3a66f213612c
+      internalID: -1800909077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_11
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 0
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8080881bef33d04b80b3123e4bf1919
+      internalID: -1834068259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilDead_12
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 0
+        width: 382
+        height: 555
+      alignment: 9
+      pivot: {x: 0.392, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a4ad023de99e14d886bf0b901824c2
+      internalID: -2008882848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +411,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HotelDevilDead_10: -1800909077
+      HotelDevilDead_2: -1516869421
+      HotelDevilDead_9: -519338581
+      HotelDevilDead_11: -1834068259
+      HotelDevilDead_3: 164537816
+      HotelDevilDead_0: -1795055076
+      HotelDevilDead_5: 1446588953
+      HotelDevilDead_4: -1896823848
+      HotelDevilDead_6: -18700147
+      HotelDevilDead_8: 924238397
+      HotelDevilDead_12: -2008882848
+      HotelDevilDead_1: 1096476952
+      HotelDevilDead_7: -496789799
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

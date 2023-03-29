@@ -127,7 +127,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HotelDevilAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1492
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8844f2479db2743a587bbd3891e15b
+      internalID: -434390051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1492
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28d7f4b97526594695297bf3fdf30f9
+      internalID: -1723722366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_2
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1492
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d4de2b1e72b594eb6dcac861638868
+      internalID: -845784343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1492
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df00a4587f1bd1418667b580a5c5c2f
+      internalID: -441366086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1492
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02f023a5dbed3e449bc631f29aa287d
+      internalID: -66107039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1119
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfc227a058237440ae0a703c415b67b
+      internalID: 1345731276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1119
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc97a9857b507747aede1b5804de902
+      internalID: -1397870166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1119
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ffb522056b27147afac3e747f6723a
+      internalID: 433139950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1119
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6506d5ee2982c409ac10736a872162
+      internalID: -970022524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1119
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab61b20f43de99b47934b0cb7f2a7582
+      internalID: 176366642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 746
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2821c6538fe433f4684e5b3e93ce5b04
+      internalID: -1584650123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 746
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffe3887556dfc34aa0164370e322a85
+      internalID: -640210165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_12
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 746
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fe60507f5fd5e458afe7e41a010cd0
+      internalID: 1464224310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 746
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb8cd049f9927a42a066021caa47b7c
+      internalID: 515076247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 746
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29576aa5089961d4d8733aac51241efd
+      internalID: -1169340106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 373
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d306423517cee4bb389ac91f3294a4
+      internalID: -1169058374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 373
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196be9b1d050efd41be62534d58b93b8
+      internalID: -1106309520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_17
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 373
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3736f27ce38f244b23838b489ceba4
+      internalID: -594437675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_18
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 373
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6587ce8fc3c928742b778542d7877a84
+      internalID: -1480565035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 373
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5596ae6e51e856c47a9019a8710a33db
+      internalID: -450816864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbace22e66e8f4845bce3122747e6a2d
+      internalID: -1498459988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_21
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b846ddf92ec5e94da579e0e3487b271
+      internalID: 971697960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_22
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472f2ffc332366247acfe5e1dc79c429
+      internalID: -1210159215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_23
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2964f776f328237468c85ba974a345a6
+      internalID: 1178429868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilAttack_24
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 0
+        width: 385
+        height: 373
+      alignment: 9
+      pivot: {x: 0.641, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5827e39eeff95542a28c5893eefacb0
+      internalID: 1642523125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +663,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HotelDevilAttack_12: 1464224310
+      HotelDevilAttack_7: 433139950
+      HotelDevilAttack_2: -845784343
+      HotelDevilAttack_16: -1106309520
+      HotelDevilAttack_21: 971697960
+      HotelDevilAttack_14: -1169340106
+      HotelDevilAttack_22: -1210159215
+      HotelDevilAttack_0: -434390051
+      HotelDevilAttack_20: -1498459988
+      HotelDevilAttack_11: -640210165
+      HotelDevilAttack_4: -66107039
+      HotelDevilAttack_17: -594437675
+      HotelDevilAttack_5: 1345731276
+      HotelDevilAttack_18: -1480565035
+      HotelDevilAttack_23: 1178429868
+      HotelDevilAttack_3: -441366086
+      HotelDevilAttack_6: -1397870166
+      HotelDevilAttack_8: -970022524
+      HotelDevilAttack_10: -1584650123
+      HotelDevilAttack_19: -450816864
+      HotelDevilAttack_13: 515076247
+      HotelDevilAttack_9: 176366642
+      HotelDevilAttack_15: -1169058374
+      HotelDevilAttack_24: 1642523125
+      HotelDevilAttack_1: -1723722366
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -127,7 +127,364 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HotelDevilStun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f147a4b80058864fa14731b4ae34d3d
+      internalID: -172152030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 752
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181577b4fb989fa4db9d3eb886e1b80e
+      internalID: -720384349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_2
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 752
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bd57ce42fbc1b469c5e43f7e346a21
+      internalID: -646435282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_3
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 752
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb8d6f9818e4fb4fb0a13599aeb101e
+      internalID: -406092227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_4
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 752
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d8114e859a3c646bc14037735b39c4
+      internalID: 1254056196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_5
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 752
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cac61a6c07ed04593875f5df39a52c
+      internalID: -102027876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaab16fadd6a49a48b40ee7c5739b3ba
+      internalID: 394532542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 376
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223b53eec8c97384181eacf3ce7b4f9d
+      internalID: -941325473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_8
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 376
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65c8f44705ee9c4596eb3628be88db7
+      internalID: 1709740799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_9
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 376
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808b132c6c7262e43aaca1ac609ee514
+      internalID: 61354615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_10
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 376
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ecccf7ecaa47e49b234b35d7bad29f
+      internalID: 228796925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_11
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 376
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536782409123a0c43a9bb946359ea779
+      internalID: -234225796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7b4f6b337c07643b8d48dfc44d7fb7
+      internalID: -664432245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_13
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8be230381a5454c881ed2535e434d3
+      internalID: 1998697969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_14
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 0
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f44e091937d494f98e6146c5f93069
+      internalID: 1701304444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_15
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 0
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e27c51329388d49b434b8fad260fb2
+      internalID: -529583977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilStun_16
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 0
+        width: 359
+        height: 376
+      alignment: 9
+      pivot: {x: 0.626, y: 0.306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aeae02dc008a54abd09fa3a51ea66f
+      internalID: 211698623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +495,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HotelDevilStun_10: 228796925
+      HotelDevilStun_14: 1701304444
+      HotelDevilStun_11: -234225796
+      HotelDevilStun_13: 1998697969
+      HotelDevilStun_15: -529583977
+      HotelDevilStun_16: 211698623
+      HotelDevilStun_7: -941325473
+      HotelDevilStun_5: -102027876
+      HotelDevilStun_3: -406092227
+      HotelDevilStun_4: 1254056196
+      HotelDevilStun_9: 61354615
+      HotelDevilStun_12: -664432245
+      HotelDevilStun_17: -1742507973
+      HotelDevilStun_0: -172152030
+      HotelDevilStun_8: 1709740799
+      HotelDevilStun_6: 394532542
+      HotelDevilStun_1: -720384349
+      HotelDevilStun_2: -646435282
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

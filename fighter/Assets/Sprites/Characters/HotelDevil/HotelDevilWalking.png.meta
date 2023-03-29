@@ -127,7 +127,364 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HotelDevilWalking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 726
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253a3a4f513e83d4fba4e9c6da7d77e5
+      internalID: -1136546511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 726
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef40aadeb6a0ee468fca3def94c279e
+      internalID: -1350238716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_2
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 726
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af9357f604c1634e9d396f25e0aa3ee
+      internalID: -166293864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_3
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 726
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9895ec4a63b2c154a98c88ab162e819c
+      internalID: -1263303496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_4
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 726
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61c0bb206e34ee409071f82ff4bef13
+      internalID: 390488317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_5
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 726
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b13ffc8f78ee84c9e3ca2fd6e55617
+      internalID: -920756416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ef4e8eee5781c4ca6821baec4e2a54
+      internalID: -346462699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 363
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1e0663b6ea47f4aad65e1784f9dc9a
+      internalID: -614937343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_8
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 363
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804a4f43a811da0479765c522e80d78b
+      internalID: -1912917141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_9
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 363
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82810ea3e0a5f93478114a8396fc3d8d
+      internalID: 618575068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_10
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 363
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be0eaec81f1a5e4abab4a17671e4244
+      internalID: -1903032207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_11
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 363
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2652c4b4772fb40abd4171fd2c66f0
+      internalID: 1510208169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0d13cbd6df13d4199cf658cf993e0a
+      internalID: 1812626462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_13
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 0
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a696a76f4ceae43b0c637ffa687382
+      internalID: 1650841620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_14
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 0
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da6ab159fcb96b4d952175eac8a97b0
+      internalID: -237773848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_15
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 0
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e916e441452bd4b8e6290a7f5290ac
+      internalID: 1739029616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HotelDevilWalking_16
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 0
+        width: 366
+        height: 363
+      alignment: 9
+      pivot: {x: 0.64, y: 0.36}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5138d91bb14c7ff4c8026e8650bdc84d
+      internalID: -964211149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +495,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HotelDevilWalking_7: -614937343
+      HotelDevilWalking_12: 1812626462
+      HotelDevilWalking_11: 1510208169
+      HotelDevilWalking_2: -166293864
+      HotelDevilWalking_15: 1739029616
+      HotelDevilWalking_10: -1903032207
+      HotelDevilWalking_6: -346462699
+      HotelDevilWalking_3: -1263303496
+      HotelDevilWalking_8: -1912917141
+      HotelDevilWalking_17: -83554037
+      HotelDevilWalking_0: -1136546511
+      HotelDevilWalking_14: -237773848
+      HotelDevilWalking_1: -1350238716
+      HotelDevilWalking_4: 390488317
+      HotelDevilWalking_16: -964211149
+      HotelDevilWalking_9: 618575068
+      HotelDevilWalking_13: 1650841620
+      HotelDevilWalking_5: -920756416
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

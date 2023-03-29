@@ -10,6 +10,7 @@ public class CharacterObject : ScriptableObject
     public int _damage;
     public int _speed;
     public float _attackTime;
+    public float _attackRange;
     public int _critChance;
     public int _missChance;
     public int _bashChance;
