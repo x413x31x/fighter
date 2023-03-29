@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: dce0be882c3afa8499c00f151ed6ae11
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1001.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2f39c93c5e87f469deddc4b56d8c34
+      internalID: -696479969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1001.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33df227a0c580441806a063bc94b5e0
+      internalID: -310561326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1001.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d1ab69fa380bc4d8e0e36965799a28
+      internalID: -1111827123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_3
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1001.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859e4167c95641647b86a7b682bc7ad3
+      internalID: 1317967983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_4
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1001.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6158799d14916ea4891a9ccf16d0e726
+      internalID: 1377780654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_5
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1001.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0544d37a0804bcf4098354be6bae970d
+      internalID: 1457446518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5b508645d70ae4d8374254c0ccc7f5
+      internalID: 1471248460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 668.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e1b268d6967ac4b86aadb5f899a7ee
+      internalID: 1494927228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_8
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 668.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8581ec7a4a3127342ba70363cb5e6974
+      internalID: 894539450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_9
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 668.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eac158cd2cb49748a650918a2ece09a
+      internalID: 926653538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_10
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 668.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bcaead5094f0d489341b43094a4514
+      internalID: -1644682191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_11
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 668.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed915e3dde2d2f44f85d3df5982efbda
+      internalID: 201629609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bb46e1ce6331545a3ba186f8e9f5ee
+      internalID: -2039986087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_13
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 335.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f94623302b0b734580c1e3eb2a9cb1a
+      internalID: -1199103216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_14
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 335.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eba15ff8adfc6b4b86d5509aa978dcd
+      internalID: 199623559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_15
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 335.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6486d6b74061ff141b25628e73192899
+      internalID: -1336607072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_16
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 335.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f89107ab4b2e742ac4fb9dcf8a7b6a
+      internalID: 458033038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_17
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 335.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc672754d8b0274f855a4b3666f2c13
+      internalID: 71149728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8393ada5f8f8840a666f46231ae656
+      internalID: -2136820370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_19
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 2.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7d9c93c416d4a42a6d98965764f383
+      internalID: 935457357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_20
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dcc8a5a02a37042bb1f9075221b0a1
+      internalID: -471727411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_21
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 2.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abac38fcc30c2274dbd8cdd74da18035
+      internalID: 2055224731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyWalking_22
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 2.25
+        width: 233.33333
+        height: 333.75
+      alignment: 9
+      pivot: {x: 0.583, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e6886c4e5bb9447b77bbaf9c8b8baf
+      internalID: 1996776556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FoxtrotElfyWalking_10: -1644682191
+      FoxtrotElfyWalking_15: -1336607072
+      FoxtrotElfyWalking_13: -1199103216
+      FoxtrotElfyWalking_22: 1996776556
+      FoxtrotElfyWalking_23: 1099967044
+      FoxtrotElfyWalking_21: 2055224731
+      FoxtrotElfyWalking_7: 1494927228
+      FoxtrotElfyWalking_2: -1111827123
+      FoxtrotElfyWalking_16: 458033038
+      FoxtrotElfyWalking_8: 894539450
+      FoxtrotElfyWalking_9: 926653538
+      FoxtrotElfyWalking_17: 71149728
+      FoxtrotElfyWalking_1: -310561326
+      FoxtrotElfyWalking_12: -2039986087
+      FoxtrotElfyWalking_3: 1317967983
+      FoxtrotElfyWalking_6: 1471248460
+      FoxtrotElfyWalking_20: -471727411
+      FoxtrotElfyWalking_14: 199623559
+      FoxtrotElfyWalking_18: -2136820370
+      FoxtrotElfyWalking_4: 1377780654
+      FoxtrotElfyWalking_11: 201629609
+      FoxtrotElfyWalking_19: 935457357
+      FoxtrotElfyWalking_0: -696479969
+      FoxtrotElfyWalking_5: 1457446518
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

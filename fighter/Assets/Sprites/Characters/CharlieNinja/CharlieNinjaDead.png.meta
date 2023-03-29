@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: fec8c51a0f06ea942b6c5a6906c2f6f2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharlieNinjaDead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092bba38f6d6a304abf2a17ffaf08b7e
+      internalID: -1340477350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaDead_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 704
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb82198fb843484b8da9e4efa144e07
+      internalID: -407963598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaDead_2
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 704
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716025667faea7d438bfc90ccf2d5f6c
+      internalID: -806177761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaDead_3
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 704
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24096c9437b2e448a75947f8df77c0e
+      internalID: 267116056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaDead_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c011ef8c89cd66948ba0908eecb1d614
+      internalID: 1891639250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaDead_5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 352
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fce3728f9b08ba47ab45af6fd698ea2
+      internalID: 2060503694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaDead_6
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 352
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969088496d40db046950721e1be09ad1
+      internalID: -239976628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaDead_7
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 352
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d589ace3f1bbe43a5ab92c5ce9f2ed
+      internalID: 782099259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaDead_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09268195281fc0644a14ac2091bf3f28
+      internalID: -1303622993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaDead_9
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51df667192abd34cada8c4f93553c00
+      internalID: -1710595038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaDead_10
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 357
+        height: 352
+      alignment: 9
+      pivot: {x: 0.397, y: 0.218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbce9c5b47edf2143acbb643dfe8f56d
+      internalID: 813082975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CharlieNinjaDead_8: -1303622993
+      CharlieNinjaDead_0: -1340477350
+      CharlieNinjaDead_2: -806177761
+      CharlieNinjaDead_11: -1914101712
+      CharlieNinjaDead_7: 782099259
+      CharlieNinjaDead_3: 267116056
+      CharlieNinjaDead_4: 1891639250
+      CharlieNinjaDead_6: -239976628
+      CharlieNinjaDead_1: -407963598
+      CharlieNinjaDead_9: -1710595038
+      CharlieNinjaDead_10: 813082975
+      CharlieNinjaDead_5: 2060503694
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

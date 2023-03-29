@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: 2f91f6c53939a4e4f9b56ba9c624401a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EchoWarriorStun_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1284
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b3adf538addb94ab571a5a62a4898c
+      internalID: 653892690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1284
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9ecb7c1a71157478e14216a1ef678f
+      internalID: -818447395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_2
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1284
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a111710422cd58548804877f661d95c6
+      internalID: -271027778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_3
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1284
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3c83f796c2dd740ac9c56bf65a0cb8
+      internalID: 1953240654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1284
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8adeb3e2f37d8947bbe25608acee3be
+      internalID: 862745194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 963
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89b5e7d795319e4290da78c62079f1b
+      internalID: -1392789116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_6
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 963
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8aec7e59ef05104db6682ebc8738803
+      internalID: 86393813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 963
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f9e16db24b1394fb306c5a1f925fcc
+      internalID: 150053573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_8
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 963
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b241b191e0de244b91ab9bfb321aa05
+      internalID: -1854076579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_9
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 963
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035681d9f1608204fbf096543f43856d
+      internalID: -982264033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 642
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd7a370558e8a542867ab4ed8b46340
+      internalID: -346460171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 642
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7c7e89fcb251041b96f387fa93c473
+      internalID: 664860338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_12
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 642
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebbb3a3ced276f4db2e681c7a76c63b
+      internalID: 689669855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_13
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 642
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220ddd7fb36977c4c83f729f7a4b912f
+      internalID: -208150102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_14
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 642
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68faa963a17094141b468c9cb3bc37fc
+      internalID: 27026762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07129e94bf374e049b1133a091b46296
+      internalID: -833847705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 321
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86f61b6a16053a4ba393d1b8f18d7a4
+      internalID: 576525785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_17
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 321
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500559c95f56d6844b3c3f28aabb1d94
+      internalID: -1927600518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_18
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 321
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98112329d1553264e8877099948ccd47
+      internalID: -620112825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_19
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 321
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0226b337924f2746811c3e0f6a0b4ad
+      internalID: -1739934155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d24e9cdd06b5d54194a17b133d6f7bc
+      internalID: 1115125246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_21
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 0
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b34f5212357914889ad12878006a6e
+      internalID: -1106283041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_22
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09c4638366f34346bcc1d7b5d475129
+      internalID: 831409390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_23
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 0
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3acae087afa4cb45b6f5aef79bee091
+      internalID: -513846397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorStun_24
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 217
+        height: 321
+      alignment: 9
+      pivot: {x: 0.414, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7218fcba3ded09e4f9606a3b7f4aa1e4
+      internalID: -1411310500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EchoWarriorStun_12: 689669855
+      EchoWarriorStun_15: -833847705
+      EchoWarriorStun_21: -1106283041
+      EchoWarriorStun_17: -1927600518
+      EchoWarriorStun_7: 150053573
+      EchoWarriorStun_13: -208150102
+      EchoWarriorStun_2: -271027778
+      EchoWarriorStun_8: -1854076579
+      EchoWarriorStun_14: 27026762
+      EchoWarriorStun_22: 831409390
+      EchoWarriorStun_11: 664860338
+      EchoWarriorStun_9: -982264033
+      EchoWarriorStun_0: 653892690
+      EchoWarriorStun_5: -1392789116
+      EchoWarriorStun_1: -818447395
+      EchoWarriorStun_16: 576525785
+      EchoWarriorStun_20: 1115125246
+      EchoWarriorStun_19: -1739934155
+      EchoWarriorStun_24: -1411310500
+      EchoWarriorStun_3: 1953240654
+      EchoWarriorStun_6: 86393813
+      EchoWarriorStun_4: 862745194
+      EchoWarriorStun_18: -620112825
+      EchoWarriorStun_23: -513846397
+      EchoWarriorStun_10: -346460171
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

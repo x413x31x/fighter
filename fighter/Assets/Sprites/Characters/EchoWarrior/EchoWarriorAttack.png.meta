@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: 6e50053f8c336a941890d7530ed8cd3e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EchoWarriorAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1180
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf17364f1f6dad4ebf96d4c73e2861a
+      internalID: -2139787083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1180
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4579983f79e3d469c7e691a4827561
+      internalID: 1665455928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1180
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ff1b2210f060c44a70b39ee8ee6569
+      internalID: 1277744981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1180
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dfd5a822084d942a1773f90fed38d9
+      internalID: -1022723520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1180
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4df4db705c74b84881279f4b6a4341f
+      internalID: 895627281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 885
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad82b0ea95142b40ac87fe6fed5b7f5
+      internalID: 347411196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 885
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69583f3a4ecd4354c90dedf6e6af00a5
+      internalID: 2090633656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_7
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 885
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1294235ea47714c891d73138efa912
+      internalID: -1560837206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_8
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 885
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4352eadcd46cf4199430546e48c901
+      internalID: -1952370297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 885
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04ef505ea6e8114280146d70c78cfc2
+      internalID: 918208207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 590
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31a9708a3436e3439f7f8670f1cf652
+      internalID: 2084885428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 590
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24bad63b4ba1fe4896136de6922ca6e
+      internalID: -1635869686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_12
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 590
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a89098f3dd64d74cb53dab3fa5d834e
+      internalID: 1935106065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_13
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 590
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706ea5d1f93127346af778c0215208c7
+      internalID: -1160141384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 590
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71e43205eb047046861e462bed402d0
+      internalID: -202365342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8466b9b8d814f459aee4a00e288777
+      internalID: 2008183685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 295
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2102506d019ef0c4c86550f2ea758d0b
+      internalID: -798373752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_17
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 295
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5aac06aea79c7449e8e1dbff6a4c61
+      internalID: -1469212681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_18
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 295
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e053704d3f1570c4c81fa36be8c68bf0
+      internalID: 134969639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 295
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9227547366a95f34384f0d1b47eeff63
+      internalID: 1451167536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd59ec92b414e440840e67f4514f445
+      internalID: 262860870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_21
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f62f254d50d3454cabbb974ea2f7d12
+      internalID: 1386051210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_22
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3053babe330caa44cb7ffdc2facab27f
+      internalID: 834416503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_23
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 0
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32f18467a20cd44bb2079f77b75244c
+      internalID: 1693033678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorAttack_24
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 273
+        height: 295
+      alignment: 9
+      pivot: {x: 0.497, y: 0.238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7439370e18dff744801ae3828857632
+      internalID: 1295192686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EchoWarriorAttack_24: 1295192686
+      EchoWarriorAttack_1: 1665455928
+      EchoWarriorAttack_23: 1693033678
+      EchoWarriorAttack_16: -798373752
+      EchoWarriorAttack_20: 262860870
+      EchoWarriorAttack_15: 2008183685
+      EchoWarriorAttack_12: 1935106065
+      EchoWarriorAttack_0: -2139787083
+      EchoWarriorAttack_21: 1386051210
+      EchoWarriorAttack_17: -1469212681
+      EchoWarriorAttack_10: 2084885428
+      EchoWarriorAttack_9: 918208207
+      EchoWarriorAttack_13: -1160141384
+      EchoWarriorAttack_22: 834416503
+      EchoWarriorAttack_14: -202365342
+      EchoWarriorAttack_7: -1560837206
+      EchoWarriorAttack_18: 134969639
+      EchoWarriorAttack_3: -1022723520
+      EchoWarriorAttack_2: 1277744981
+      EchoWarriorAttack_6: 2090633656
+      EchoWarriorAttack_11: -1635869686
+      EchoWarriorAttack_19: 1451167536
+      EchoWarriorAttack_4: 895627281
+      EchoWarriorAttack_8: -1952370297
+      EchoWarriorAttack_5: 347411196
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

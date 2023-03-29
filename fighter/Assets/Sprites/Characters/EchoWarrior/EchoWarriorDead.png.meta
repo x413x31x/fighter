@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: f52edac61a2c55c4486e491148b6681c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EchoWarriorDead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae57f09eb7e289419540c8f7ccef75c
+      internalID: -1993687998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 626
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4facc8bdb1cc2484c8f9969d43048000
+      internalID: -704351289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_2
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 626
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16a0711fc73eb74199f7e5d1a65a7e4
+      internalID: 2086584130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_3
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 626
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f741c43d702c842b239a81c0c4d9eb
+      internalID: 1139863703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_4
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 626
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105262275991b9f45a834b38b6ee1aa8
+      internalID: -1499598574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 313
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ad2631e3f4b5343951ec160e537414
+      internalID: -918591401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_6
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 313
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b943c00f6e27e74a985a04ec7d8cd88
+      internalID: -1130003155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_7
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 313
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fcefa27f41f3644a8ccf92fceac1e4
+      internalID: 82684867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_8
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 313
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0b03dc87ccae740836f01746087895
+      internalID: -1532107665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_9
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 313
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad36ac4c4a003044b2edb35108af882
+      internalID: -590343243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e4c9e8f38d3ef4f87c43f3d14e4c39
+      internalID: -705879540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_11
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4c65af51424dc4984efa32ec475912
+      internalID: 191069153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_12
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 0
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113547293afb04245b4dba901dcbaa77
+      internalID: -1153371290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorDead_13
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 347
+        height: 313
+      alignment: 9
+      pivot: {x: 0.324, y: 0.224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b24c2227a450345b67cc5ee44f13f4
+      internalID: -1383644752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EchoWarriorDead_2: 2086584130
+      EchoWarriorDead_11: 191069153
+      EchoWarriorDead_9: -590343243
+      EchoWarriorDead_0: -1993687998
+      EchoWarriorDead_1: -704351289
+      EchoWarriorDead_8: -1532107665
+      EchoWarriorDead_12: -1153371290
+      EchoWarriorDead_10: -705879540
+      EchoWarriorDead_3: 1139863703
+      EchoWarriorDead_7: 82684867
+      EchoWarriorDead_4: -1499598574
+      EchoWarriorDead_5: -918591401
+      EchoWarriorDead_6: -1130003155
+      EchoWarriorDead_13: -1383644752
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: b1e9d675c977a084c939d91317cfd7da
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeltaRobberWalking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b6822b539ce004f96f97efad120b14
+      internalID: -1869369509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 550
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf12e278078fefa469b3ad57b8e96907
+      internalID: -1341209639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_2
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 550
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fef36c4af44bd46b3908d5dd99d113
+      internalID: 1814397600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_3
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 550
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1ab736d3e9149429177aad5d5620d6
+      internalID: -1838601309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_4
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 550
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65eb44ff8f209104388139a51a62fc67
+      internalID: -589462744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_5
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 550
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69818fedb1ea9b44999a7d31daffb0bd
+      internalID: 809199701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 275
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857b7ecfc9fca8c4f80341cfeee30b08
+      internalID: -592823247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 275
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c3e6546d010aa4ca20b11ad0d78056
+      internalID: 1770684133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_8
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 275
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46be7ca826379984c9a354dcea0a797c
+      internalID: -967531436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_9
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 275
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b16e5932a9ade49938d24d43ea8d23
+      internalID: 659207481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_10
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 275
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b36aeaac9a0764cac2553afa83e28c
+      internalID: 1660129115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_11
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 275
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c3b4b190cbf444db9004b13eaf5ab7
+      internalID: -1065154683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b180854f629be00499ab7cf77c62d6aa
+      internalID: -210455221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_13
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fac5b43ab1651498f0ccf10bd2bb8c
+      internalID: -576640644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_14
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2d07611be6f2148a7765c2d4a40e89
+      internalID: 1827641301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_15
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 0
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901efcd398bf2b4468abe99ac60ec7bd
+      internalID: -1972526034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberWalking_16
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 0
+        width: 322
+        height: 275
+      alignment: 9
+      pivot: {x: 0.51, y: 0.289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44dc53bf1423ef46aeae31104af8628
+      internalID: -377749118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DeltaRobberWalking_1: -1341209639
+      DeltaRobberWalking_9: 659207481
+      DeltaRobberWalking_13: -576640644
+      DeltaRobberWalking_4: -589462744
+      DeltaRobberWalking_2: 1814397600
+      DeltaRobberWalking_14: 1827641301
+      DeltaRobberWalking_6: -592823247
+      DeltaRobberWalking_10: 1660129115
+      DeltaRobberWalking_11: -1065154683
+      DeltaRobberWalking_16: -377749118
+      DeltaRobberWalking_0: -1869369509
+      DeltaRobberWalking_3: -1838601309
+      DeltaRobberWalking_7: 1770684133
+      DeltaRobberWalking_8: -967531436
+      DeltaRobberWalking_12: -210455221
+      DeltaRobberWalking_15: -1972526034
+      DeltaRobberWalking_5: 809199701
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

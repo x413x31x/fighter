@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: 08bb16295b59d83408642cab95982c11
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeltaRobberAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 996
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f831ff87a017db44a57884ce0bde4cf
+      internalID: -1406889028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 996
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9d8916082ed9e47ac29e7371b18953
+      internalID: 1901893513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_2
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 996
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8bf35f88fe56b4394b2ec681f85f05
+      internalID: 253994479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 996
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a3b14fbe0ed37419a9557d04de01f2
+      internalID: 658149983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 996
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7102a08dde1e294383d5810dbe33b86
+      internalID: 816198124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 747
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0380284aa9905544aa610aca1908447
+      internalID: 1819075656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_6
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 747
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f70d91462a3cfb449171401e6f7eb03
+      internalID: -762726172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_7
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 747
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e0502c271ecd4449a67a21966ef941
+      internalID: -2047375939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 747
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41434d97f7c76d74dbc5fc3f7764b3d0
+      internalID: 600705645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 747
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6647812984a46dd40a2b071aa1518929
+      internalID: -1615538900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c76e38b4bc8bc42bdc13dc3f68d150
+      internalID: 1192699050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_11
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 498
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374a50d14b9a07a4f9fb9c2388af0712
+      internalID: -838415056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_12
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 498
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cc09ad2cb504742bf039f5753725da
+      internalID: -1793245989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 498
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a311bc564ad5714d8d6b5c55fc6d44d
+      internalID: 1999929611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 498
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da55b88453e8c44fb56f300f64adfa9
+      internalID: 162865952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e11e13eb865c614381b432af5786edf
+      internalID: 442509349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_16
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 249
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a651913a6b127d440857f6660a20a6e4
+      internalID: -1035416364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_17
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 249
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c233466ad94d6ae4d9bb3be2c9638e2e
+      internalID: 401544172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_18
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 249
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d394269ec5281b54990f1577814d22ee
+      internalID: -466788576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 249
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554ff1dd43257974c97a7cedbfa1ad4a
+      internalID: 1654630114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf06c5e57ab00534cae4f3074a48ed25
+      internalID: -1740790112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b2bee1418c26f4a91d31538a024043
+      internalID: 66920081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_22
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 0
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef481671eef1f404ca875f0f71767bd1
+      internalID: -1962429725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_23
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 0
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4095c44c6688e13418090740c3abd540
+      internalID: 924220691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberAttack_24
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 0
+        width: 419
+        height: 249
+      alignment: 9
+      pivot: {x: 0.559, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76131a87060c5e14389919503276b2d2
+      internalID: -433373617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DeltaRobberAttack_4: 816198124
+      DeltaRobberAttack_16: -1035416364
+      DeltaRobberAttack_19: 1654630114
+      DeltaRobberAttack_11: -838415056
+      DeltaRobberAttack_7: -2047375939
+      DeltaRobberAttack_9: -1615538900
+      DeltaRobberAttack_15: 442509349
+      DeltaRobberAttack_3: 658149983
+      DeltaRobberAttack_22: -1962429725
+      DeltaRobberAttack_1: 1901893513
+      DeltaRobberAttack_8: 600705645
+      DeltaRobberAttack_24: -433373617
+      DeltaRobberAttack_17: 401544172
+      DeltaRobberAttack_5: 1819075656
+      DeltaRobberAttack_23: 924220691
+      DeltaRobberAttack_2: 253994479
+      DeltaRobberAttack_13: 1999929611
+      DeltaRobberAttack_14: 162865952
+      DeltaRobberAttack_18: -466788576
+      DeltaRobberAttack_6: -762726172
+      DeltaRobberAttack_21: 66920081
+      DeltaRobberAttack_0: -1406889028
+      DeltaRobberAttack_10: 1192699050
+      DeltaRobberAttack_20: -1740790112
+      DeltaRobberAttack_12: -1793245989
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

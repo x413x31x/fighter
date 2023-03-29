@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: d5fac987db9a4bf46a7f45a1163f6616
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1228
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f440ee1a0457a41b708f15bdf45065
+      internalID: -317149588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_1
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1228
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5951644b0e65aea42bd7c24a2cbea08d
+      internalID: -89014655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_2
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1228
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40ba1101cae3dc469a4021a438e6433
+      internalID: 1782403529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1228
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688f3eb38095ac84bb40b90f42a307d6
+      internalID: -717132907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1228
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef37872935dfc8a4da85ffa06424e71e
+      internalID: 835789354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 921
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c3ab2f51f702e4a9d122a43d25b356
+      internalID: 506637867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 921
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4c790bd22f71a4bb04657d63482b21
+      internalID: 1293698755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_7
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 921
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1736bed117f67074bbc585e85217af94
+      internalID: 1200225438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_8
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 921
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ed68d2a13c3394683a93bc3d207d9f
+      internalID: -1228546860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 921
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea49a2fe4d70c64194c418c300e9cff
+      internalID: -369606052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddf866c261417b40829d8765bc258f1
+      internalID: 1623022384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_11
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 614
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbc4defb7bea09499f597c5f61ff2b6
+      internalID: 2015703045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_12
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 614
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13a47b2849b1194996864c9c2a7efbe
+      internalID: 172419810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_13
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 614
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4c4dd3d52570949ae9b91974488ada
+      internalID: 1938263767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 614
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6772bda333884134797ea0bd80ad8a2b
+      internalID: -1624990098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fa5dac6e39e7940aca592d25ecd3f7
+      internalID: -184062710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_16
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 307
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb9c17f9d00ff1439cb92c70e26f36b
+      internalID: 273227840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_17
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 307
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06832df423d98f43962f900d1f0dc28
+      internalID: -140235822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_18
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 307
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5087de3c53a684748944301b050456ed
+      internalID: 444311964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 307
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d98a2282ff53b4489596298fa01d11
+      internalID: -739259698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332c5ad871e57684a827d6f1d66f163b
+      internalID: -981267089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_21
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5344ba3ea7cd88b46b85e7fdaa9b228e
+      internalID: 1894134159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_22
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 0
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89748234a64df0408790e59ae6ad4b9
+      internalID: 1411787157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_23
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 0
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f03d46670925fc46ac1e0425c39a927
+      internalID: -251916739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaAttack_24
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 0
+        width: 389
+        height: 307
+      alignment: 9
+      pivot: {x: 0.609, y: 0.297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef5e9191e90615478799f456c05f189
+      internalID: -1708242236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CharlieNinjaAttack_4: 835789354
+      CharlieNinjaAttack_14: -1624990098
+      CharlieNinjaAttack_21: 1894134159
+      CharlieNinjaAttack_0: -317149588
+      CharlieNinjaAttack_16: 273227840
+      CharlieNinjaAttack_17: -140235822
+      CharlieNinjaAttack_22: 1411787157
+      CharlieNinjaAttack_10: 1623022384
+      CharlieNinjaAttack_6: 1293698755
+      CharlieNinjaAttack_3: -717132907
+      CharlieNinjaAttack_15: -184062710
+      CharlieNinjaAttack_24: -1708242236
+      CharlieNinjaAttack_2: 1782403529
+      CharlieNinjaAttack_13: 1938263767
+      CharlieNinjaAttack_20: -981267089
+      CharlieNinjaAttack_5: 506637867
+      CharlieNinjaAttack_11: 2015703045
+      CharlieNinjaAttack_7: 1200225438
+      CharlieNinjaAttack_18: 444311964
+      CharlieNinjaAttack_23: -251916739
+      CharlieNinjaAttack_12: 172419810
+      CharlieNinjaAttack_1: -89014655
+      CharlieNinjaAttack_9: -369606052
+      CharlieNinjaAttack_8: -1228546860
+      CharlieNinjaAttack_19: -739259698
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

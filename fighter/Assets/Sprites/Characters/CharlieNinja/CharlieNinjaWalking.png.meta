@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: fa44d9fd109dc23408d522ed87df3a9e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce19ec988c76d54d808adab82236817
+      internalID: -1163570382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1200
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23102841057c436428c56855f6db6fd7
+      internalID: -1892075713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1200
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e014d873bafba9b4b82c3af33f469139
+      internalID: 287493945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1200
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5557e207bc1ea834d937dc92921cf46d
+      internalID: -1529527766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1200
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730489b3357abe54488292c80e11eee6
+      internalID: 2146987884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edb57243a54192408577ac29675f8c1
+      internalID: 1920910735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 900
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0eae9da5b2086947adb0106abe09510
+      internalID: -1748625173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 900
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce584dcc92eabd547aa98c871a07d7a3
+      internalID: 1489796575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_8
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 900
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951373dead409e2468696655c293e26d
+      internalID: 1967692029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 900
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b852143a647866844a05527c3588bc86
+      internalID: -113605618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e778acc0a26de48821a6e9f0efc2a8
+      internalID: -378857744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 600
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85d0dddbc1228d47b05a68a25c7accd
+      internalID: -958066559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 600
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0539f10a06df12a40b1793fea4b80f92
+      internalID: 553247050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_13
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 600
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe9353a9e95a3f4b84e81d41c9bf0fe
+      internalID: -1566151228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_14
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 600
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e3bd17e3fe5944fa8794b82df8bda5
+      internalID: -1951572931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa24865c18d46f042a094f04df61c247
+      internalID: 1851050972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 300
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2261b981aee7a064db90a3377c21b5e5
+      internalID: -1372349554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 300
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a3c50d564bfb74eb185740830f4b6d
+      internalID: -1585808056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_18
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 300
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8c34d60cbd68141a083b33224829bf
+      internalID: -577262828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 300
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d4ff5b6cc5cd0479aed8222e7831c4
+      internalID: -394878353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbc26d31153bbb4b9027e5c86607b6a
+      internalID: 449782693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf209dffcf8c81f42aa6d39f1ceb3212
+      internalID: -1135910037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fe9c427778ee54e9a251a40bc14295
+      internalID: 1834888238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_23
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95f659cf912a8d40bf2423b37faaa0b
+      internalID: -418179901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaWalking_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 288
+        height: 300
+      alignment: 9
+      pivot: {x: 0.496, y: 0.335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff9dd8490b42f74e99b27748c2aac21
+      internalID: -1672920186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CharlieNinjaWalking_8: 1967692029
+      CharlieNinjaWalking_1: -1892075713
+      CharlieNinjaWalking_23: -418179901
+      CharlieNinjaWalking_24: -1672920186
+      CharlieNinjaWalking_4: 2146987884
+      CharlieNinjaWalking_6: -1748625173
+      CharlieNinjaWalking_0: -1163570382
+      CharlieNinjaWalking_21: -1135910037
+      CharlieNinjaWalking_22: 1834888238
+      CharlieNinjaWalking_16: -1372349554
+      CharlieNinjaWalking_18: -577262828
+      CharlieNinjaWalking_3: -1529527766
+      CharlieNinjaWalking_10: -378857744
+      CharlieNinjaWalking_2: 287493945
+      CharlieNinjaWalking_19: -394878353
+      CharlieNinjaWalking_17: -1585808056
+      CharlieNinjaWalking_14: -1951572931
+      CharlieNinjaWalking_5: 1920910735
+      CharlieNinjaWalking_7: 1489796575
+      CharlieNinjaWalking_13: -1566151228
+      CharlieNinjaWalking_12: 553247050
+      CharlieNinjaWalking_9: -113605618
+      CharlieNinjaWalking_20: 449782693
+      CharlieNinjaWalking_15: 1851050972
+      CharlieNinjaWalking_11: -958066559
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: 10f51143aacbe794a875ec007919dc28
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EchoWarriorWalking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 881.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9225f7b5ad6315047a3cfc1451bf13f0
+      internalID: -526969151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 881.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e068d651fa1a15445a047a4055f7c90a
+      internalID: 1206528949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 881.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb845281504ef1f45a55c52db2ac2e26
+      internalID: 1317303995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 881.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84ea7e1aa8a76c459deca960f9110c5
+      internalID: 15514800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 881.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e7062421c31a946a5676842f23f186
+      internalID: -108256497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7741b504778cec945b00db789eb00363
+      internalID: -634579380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 588.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca2666beee787042821d2b84fe3d223
+      internalID: 1267826171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 588.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1ba9370ca869f4b960e8f34f4091cb
+      internalID: 1993527921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_8
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 588.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bdee029db983d468bdaec60969f3ef
+      internalID: 1547378721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 588.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b4fb803edd0c74db73fc55a75c356a
+      internalID: 2079935292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103c047a5c1583744be560e11fd2ba91
+      internalID: -1049821027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 295.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a04ddec59b768e4787ec1adcc8b919d
+      internalID: -312286901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 295.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685dcf80ff9974d42bde4014ea8e6a11
+      internalID: -1096754387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_13
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 295.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7939e6769b25bfc4a930212975bf1616
+      internalID: -1864737433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 295.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4980db1667b4b745bea9be43ad3ca6a
+      internalID: 132974813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9936c7531fabe4ab5db2cf793d651b
+      internalID: 1133025525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71947b1355c5d3e4caa55b30800468a2
+      internalID: -48894518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5235e73a925a44bba9ae7167081848
+      internalID: 1611416235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EchoWarriorWalking_18
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2.25
+        width: 250
+        height: 293.75
+      alignment: 9
+      pivot: {x: 0.451, y: 0.234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7ba0869954009419e6c55b1d1cf969
+      internalID: -1447971163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EchoWarriorWalking_10: -1049821027
+      EchoWarriorWalking_13: -1864737433
+      EchoWarriorWalking_0: -526969151
+      EchoWarriorWalking_16: -48894518
+      EchoWarriorWalking_4: -108256497
+      EchoWarriorWalking_11: -312286901
+      EchoWarriorWalking_7: 1993527921
+      EchoWarriorWalking_14: 132974813
+      EchoWarriorWalking_9: 2079935292
+      EchoWarriorWalking_15: 1133025525
+      EchoWarriorWalking_18: -1447971163
+      EchoWarriorWalking_3: 15514800
+      EchoWarriorWalking_17: 1611416235
+      EchoWarriorWalking_6: 1267826171
+      EchoWarriorWalking_8: 1547378721
+      EchoWarriorWalking_2: 1317303995
+      EchoWarriorWalking_1: 1206528949
+      EchoWarriorWalking_5: -634579380
+      EchoWarriorWalking_12: -1096754387
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

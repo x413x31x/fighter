@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: 056aaae351e626347bd5334577985387
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1236
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b144c2ce8bebf9949999fafacd1b9679
+      internalID: -1521904026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1236
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0cb98b0fa0cf341a1df193796f45aa
+      internalID: 1073585105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_2
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1236
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c29bc4d7197f8b4987cd6537f3f8b34
+      internalID: 1800781099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_3
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1236
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1675a20e369f82419d533df1e4629ff
+      internalID: -1267739288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1236
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c3b17a4777bfa428268af859271ece
+      internalID: -1897056382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 927
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0a6f632a34069488759ed99c57e55b
+      internalID: 670926452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 927
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91d132606af1704dba4c9616fbc8cbb
+      internalID: 1116001281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_7
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 927
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dd2e90e98d4d74b9c372d7b3bff46a
+      internalID: -1720065483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_8
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 927
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40945b6195f9e843b8b375415dd5b66
+      internalID: -1824812546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 927
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3ea583e48a8624ea96e2dc4da37684
+      internalID: 1080896959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 618
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93d2eca7eb83284b8f14a5ff705898c
+      internalID: -1176955311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_11
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 618
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25cf40be50a10d4dbf5c6b39dce28c7
+      internalID: 905259993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_12
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 618
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc6a270fc606214498fcd97f6d6b520
+      internalID: 1974126058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_13
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 618
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed05d3e5c2411fe48828747f167e8480
+      internalID: 1450627971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 618
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f24973d1a1f39340a94674ca7224a58
+      internalID: 1324900473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 309
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18f44de10937704fbd35ae37508bd5e
+      internalID: -1087811540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_16
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 309
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c10617110df9b44b8aedb34102a9e4d
+      internalID: -330161905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_17
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 309
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d478af9ac5012243bf9f9483ae13072
+      internalID: 253110593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_18
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 309
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1f69a2f6b715545980358de1d94283
+      internalID: 571564128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 309
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfa6d4dbfa14934f8c543840ea56eed
+      internalID: 804636806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dc08d22ea8a3b4fb131f2646f3ced8
+      internalID: -988247872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_21
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ac660948557794e856d30338993434
+      internalID: 599107253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_22
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3017eb6b5ce872b4c98d0fcdfc5705fc
+      internalID: -2030727711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_23
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 0
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c3837e2b1620441abbb6984c598e66
+      internalID: -312062823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxtrotElfyAttack_24
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 0
+        width: 309
+        height: 309
+      alignment: 9
+      pivot: {x: 0.603, y: 0.386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33299f198ca9d44aa34c4831a9696f2
+      internalID: -776824871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FoxtrotElfyAttack_0: -1521904026
+      FoxtrotElfyAttack_17: 253110593
+      FoxtrotElfyAttack_1: 1073585105
+      FoxtrotElfyAttack_24: -776824871
+      FoxtrotElfyAttack_13: 1450627971
+      FoxtrotElfyAttack_12: 1974126058
+      FoxtrotElfyAttack_14: 1324900473
+      FoxtrotElfyAttack_22: -2030727711
+      FoxtrotElfyAttack_11: 905259993
+      FoxtrotElfyAttack_20: -988247872
+      FoxtrotElfyAttack_3: -1267739288
+      FoxtrotElfyAttack_19: 804636806
+      FoxtrotElfyAttack_21: 599107253
+      FoxtrotElfyAttack_5: 670926452
+      FoxtrotElfyAttack_18: 571564128
+      FoxtrotElfyAttack_6: 1116001281
+      FoxtrotElfyAttack_8: -1824812546
+      FoxtrotElfyAttack_4: -1897056382
+      FoxtrotElfyAttack_7: -1720065483
+      FoxtrotElfyAttack_9: 1080896959
+      FoxtrotElfyAttack_10: -1176955311
+      FoxtrotElfyAttack_2: 1800781099
+      FoxtrotElfyAttack_16: -330161905
+      FoxtrotElfyAttack_23: -312062823
+      FoxtrotElfyAttack_15: -1087811540
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

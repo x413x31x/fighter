@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: d030f3491e8c87945ad7be1254525350
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ead3b0ef951d354db9db4ffea689513
+      internalID: 1392848861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 522
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c930eb3ae872a44c866b79d525206e3
+      internalID: 473433078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_2
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 522
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215647eaff53d2548af11ab4a148c5b1
+      internalID: 1480515199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_3
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 522
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7e48bd4dae2154e8e40a4e47aa54df
+      internalID: 1868627838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_4
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 522
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910629ffef94c6a4cbbbb0c2f3eb89c2
+      internalID: 1884778840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd2ec171024d7c479c4fb10b7f10977
+      internalID: 250230659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 261
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95db93cda0584f4ba0a3cd800cba49e
+      internalID: -1408649815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_7
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 261
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3cc9ab97e833d4abcd4b495271102d
+      internalID: -1046959884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_8
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 261
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9057758df67a8284e93adf20dec83db7
+      internalID: 1373931825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_9
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 261
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ac96a23662c774ba1760898be99962
+      internalID: -2011258574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb632a0ed160d9e4c994dddf70e32c3d
+      internalID: -1739048791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f13116aaa4e7346b9aa37c6c9dd41e
+      internalID: 705967980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharlieNinjaIdle_12
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 0
+        width: 289
+        height: 261
+      alignment: 9
+      pivot: {x: 0.493, y: 0.232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759b6389dbf757b42ad8fe81f20b590a
+      internalID: -365294877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CharlieNinjaIdle_0: 1392848861
+      CharlieNinjaIdle_12: -365294877
+      CharlieNinjaIdle_13: -1534250503
+      CharlieNinjaIdle_9: -2011258574
+      CharlieNinjaIdle_2: 1480515199
+      CharlieNinjaIdle_11: 705967980
+      CharlieNinjaIdle_4: 1884778840
+      CharlieNinjaIdle_6: -1408649815
+      CharlieNinjaIdle_7: -1046959884
+      CharlieNinjaIdle_10: -1739048791
+      CharlieNinjaIdle_3: 1868627838
+      CharlieNinjaIdle_5: 250230659
+      CharlieNinjaIdle_1: 473433078
+      CharlieNinjaIdle_8: 1373931825
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

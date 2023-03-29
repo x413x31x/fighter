@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: 0e17e85f615f5364db3e602267b4be07
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GolfYoungWalking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392413b6046071b4cb76c7667f3f65ea
+      internalID: -656743812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 944
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddc273311d5b7442b2e4d0681bf0e0a
+      internalID: -689371349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 944
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15128b9fd9d73a7468e907e2da32c02e
+      internalID: 1926357859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 944
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ca15429c64aa04d8da581effdef311
+      internalID: 213895413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_4
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 944
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a078148e0f34f548b524dffb7a3bbab
+      internalID: -1907680942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 708
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d322140fbffbda640ab9b575c68329f1
+      internalID: 825604350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_6
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 708
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b2d1688114ed94f9576b30ef980d01
+      internalID: -41025127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 708
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105b635956515424aa695c91bf3d603e
+      internalID: 212215809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_8
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 708
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c276f2bb83b62f4478c610056c48f7fa
+      internalID: -1751759023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_9
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 708
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095076d378b23654db543847645c1953
+      internalID: -1791208040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 472
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57af45997d14dc4d92852ac7efbb031
+      internalID: 1905464237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_11
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 472
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d946ac1446a0054ab6f1b333ecbd1a7
+      internalID: -1984369647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 472
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff4205698a2dfa4ab838c6d3920fea0
+      internalID: -865762253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_13
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 472
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dda6893caf46b4daaf21abe5919cc8
+      internalID: 2045824724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_14
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 472
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628f40a6ebfc660418d8e891f0b196e8
+      internalID: 2096063442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b9b1fa37385f343875ee5218e4665c
+      internalID: -1026569894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_16
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 236
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc659d115f1cce44bf95fa4a1c2d4f7
+      internalID: 1292867038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_17
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 236
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6025e023085b4942b82ebdcc7d39389
+      internalID: -328382801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_18
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 236
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f9bdbaf4f63c54394a7bff5ec61c0e
+      internalID: -705135337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_19
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 236
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f64f7431e3ab88499e3117dfffcb67b
+      internalID: -1290868022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40b23ce748dd82439b6cd1c1a70e864
+      internalID: -161248992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_21
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0d3d9c53e0d9745a831411bc124795
+      internalID: 224365966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_22
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6882c8eabce26ed4f8bbc91a256c61a7
+      internalID: 1933731236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_23
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 0
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27242ff83624f3541b39860c8b99a019
+      internalID: 333385452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungWalking_24
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 248
+        height: 236
+      alignment: 9
+      pivot: {x: 0.667, y: 0.237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d624403a0d6a9364fa83dc103115a359
+      internalID: -357144783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GolfYoungWalking_20: -161248992
+      GolfYoungWalking_18: -705135337
+      GolfYoungWalking_10: 1905464237
+      GolfYoungWalking_13: 2045824724
+      GolfYoungWalking_9: -1791208040
+      GolfYoungWalking_14: 2096063442
+      GolfYoungWalking_4: -1907680942
+      GolfYoungWalking_15: -1026569894
+      GolfYoungWalking_23: 333385452
+      GolfYoungWalking_7: 212215809
+      GolfYoungWalking_8: -1751759023
+      GolfYoungWalking_21: 224365966
+      GolfYoungWalking_24: -357144783
+      GolfYoungWalking_11: -1984369647
+      GolfYoungWalking_6: -41025127
+      GolfYoungWalking_12: -865762253
+      GolfYoungWalking_1: -689371349
+      GolfYoungWalking_5: 825604350
+      GolfYoungWalking_16: 1292867038
+      GolfYoungWalking_19: -1290868022
+      GolfYoungWalking_22: 1933731236
+      GolfYoungWalking_17: -328382801
+      GolfYoungWalking_0: -656743812
+      GolfYoungWalking_3: 213895413
+      GolfYoungWalking_2: 1926357859
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

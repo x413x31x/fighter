@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: d6bfb63ac280d1a4db67e0df30f21051
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeltaRobberDead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 878
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7c2e5e209f95a4a9908e326bc4eeb9
+      internalID: -1002190927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 878
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea62fddfab868c4885f716d32e56b27
+      internalID: -1216346196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_2
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 878
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d4a7babdffd8241a39953667c2c137
+      internalID: -902069246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_3
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 878
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f58e23e942a87f4ca6b5b5f4aecf6d4
+      internalID: 1880004058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_4
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 878
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95efd2611171ba74f8b2a3b3f5a1cba5
+      internalID: 1327730384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 439
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1909ea3b3aae5fd43b35f0b4069996f5
+      internalID: -639205071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 439
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9607a9ed3f58d46b9bc45abef7346f
+      internalID: 946598568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_7
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 439
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7a7b3c41a269345b05bf7be62adfc9
+      internalID: 2107046719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_8
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 439
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e9d45d6780d364dbe69ebdadc0d2aa
+      internalID: -180316138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_9
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 439
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87241ab108061e748bfed4df8e2160a0
+      internalID: 1358934760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74e3147d7046d7479fa62ea024c44b3
+      internalID: -969018588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_11
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ec48a34bc57434caceb54a3ca1c93d
+      internalID: 1630309356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeltaRobberDead_12
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 348
+        height: 439
+      alignment: 9
+      pivot: {x: 0.456, y: 0.149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40b450d33d25a443a8eafef3c78e83a
+      internalID: -1685345474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DeltaRobberDead_1: -1216346196
+      DeltaRobberDead_6: 946598568
+      DeltaRobberDead_10: -969018588
+      DeltaRobberDead_4: 1327730384
+      DeltaRobberDead_7: 2107046719
+      DeltaRobberDead_8: -180316138
+      DeltaRobberDead_11: 1630309356
+      DeltaRobberDead_2: -902069246
+      DeltaRobberDead_3: 1880004058
+      DeltaRobberDead_9: 1358934760
+      DeltaRobberDead_12: -1685345474
+      DeltaRobberDead_0: -1002190927
+      DeltaRobberDead_5: -639205071
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

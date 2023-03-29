@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: d9d54c0c6c645d74cb6bcd7ecb7bd7a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GolfYoungAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1124
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6862e10e892e6704fbfdfb4b58e91a16
+      internalID: 727230824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1124
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d511c57587494c1419f3c06bab8ca8bc
+      internalID: -1863547882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_2
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1124
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a78244b5bd79042925b590c44568ee
+      internalID: 183668405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_3
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1124
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20178f346c8752243923b894ce8bd658
+      internalID: -1562672161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1124
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586c80b4170957c4499ecf5ad3fa0b07
+      internalID: 843238313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 843
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3fe45fe6f0d5e498699f465f35aafd
+      internalID: 1006671298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_6
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 843
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a051a8f03de8db044b291198df9186a5
+      internalID: 1599870312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_7
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 843
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586e4f485dcbed24685b0ab4979fc21c
+      internalID: 581249635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_8
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 843
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8677a3215ef3bb14bb065bc3271c8346
+      internalID: -877084872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_9
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 843
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fec62a75f105694fa25882cfc2298e1
+      internalID: -1030573159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 562
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9251b58032538c43b86c1a990085764
+      internalID: 634076103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_11
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 562
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f97b782c9e2cd34680d38175e46fb8b
+      internalID: 1996815532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_12
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 562
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b440582987fc86841b3a4a67ea1404a7
+      internalID: 2060606236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_13
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 562
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6772b700f1022fc479c6d1aff6d3c41d
+      internalID: -806669475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 562
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d1b67e4f5c8d644a659779d0c32f93
+      internalID: 1939288524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 281
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec60ca3eda63d74eb941f171411c91a
+      internalID: 126824289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 281
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af37dc21754c9b42b9f49bc8d04feb2
+      internalID: 1342785462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_17
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 281
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd6ba7d3845b7645bc5677ee253492e
+      internalID: -752438016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_18
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 281
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d4a8c99a3a1204ca79e4879e755089
+      internalID: 527279217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 281
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc152bf179493124d95ed2aec7dd6674
+      internalID: 230645177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2feaa13ce463b040b329a7e3646b547
+      internalID: -627312204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_21
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da94d6a20a4c2774b9aa8b95d7252828
+      internalID: -1781568245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_22
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 0
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b378ea980d202854caf5920e3e9ed464
+      internalID: 1123374304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_23
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 0
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c871ce25d792f4d93f16271d678e3b
+      internalID: 711964089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GolfYoungAttack_24
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 0
+        width: 281
+        height: 281
+      alignment: 9
+      pivot: {x: 0.629, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bed8e532163fd4491a866c2d1aa302
+      internalID: -426624872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GolfYoungAttack_20: -627312204
+      GolfYoungAttack_11: 1996815532
+      GolfYoungAttack_3: -1562672161
+      GolfYoungAttack_19: 230645177
+      GolfYoungAttack_16: 1342785462
+      GolfYoungAttack_12: 2060606236
+      GolfYoungAttack_13: -806669475
+      GolfYoungAttack_23: 711964089
+      GolfYoungAttack_7: 581249635
+      GolfYoungAttack_18: 527279217
+      GolfYoungAttack_0: 727230824
+      GolfYoungAttack_9: -1030573159
+      GolfYoungAttack_1: -1863547882
+      GolfYoungAttack_14: 1939288524
+      GolfYoungAttack_4: 843238313
+      GolfYoungAttack_2: 183668405
+      GolfYoungAttack_5: 1006671298
+      GolfYoungAttack_6: 1599870312
+      GolfYoungAttack_15: 126824289
+      GolfYoungAttack_24: -426624872
+      GolfYoungAttack_10: 634076103
+      GolfYoungAttack_17: -752438016
+      GolfYoungAttack_22: 1123374304
+      GolfYoungAttack_8: -877084872
+      GolfYoungAttack_21: -1781568245
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
