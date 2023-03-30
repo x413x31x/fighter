@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +15,18 @@ public class GameManager : MonoBehaviour
     public static CharacterStateManager _player;
     public static CharacterStateManager _enemy;
 
+    [SerializeField] private GameObject _endGameScreen;
+    [SerializeField] private Image _victoryImage;
+    [SerializeField] private Sprite _victory;
+    [SerializeField] private Sprite _defeat;
+    [SerializeField] private TMP_Text _rewards;
+
+    private int _gameCounter
+    {
+        get => PlayerPrefs.GetInt("GameCounter");
+        set => PlayerPrefs.SetInt("GameCounter", value);
+    }
+
     private void Awake()
     {
         CreatePlayer();
@@ -24,9 +36,13 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (_player._isDead || _enemy._isDead)
+        if (_player._isDead)
         {
-            GameOver();
+            GameOver(false);
+        }
+        else if(_enemy._isDead)
+        {
+            GameOver(true);
         }
     }
 
@@ -48,6 +64,7 @@ public class GameManager : MonoBehaviour
         CharacterStateManager enemy = Instantiate(_charactersPrefs[randomEnemyIndex]);
         enemy.transform.position = _enemySpownPoint.transform.position;
         enemy.tag = "Enemy";
+        enemy._nickname = Nicknames._nicknames[Random.Range(0, Nicknames._nicknames.Length)];
         enemy.gameObject.layer = LayerMask.NameToLayer("Enemy");
         enemy.GetComponent<Transform>().localScale = new Vector3(-1, 1, 1);
         enemy._isPlayer = false;
@@ -101,8 +118,29 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void GameOver()
+    private void GameOver(bool _playerIsWin)
     {
-        SceneManager.LoadScene("MenuScene");
+        Time.timeScale = 0;
+        if (_playerIsWin)
+        {
+            int randomRewards = Random.Range(222, 444);
+            EndGame(randomRewards, _victory);
+            
+        }
+        else
+        {
+            int randomRewards = Random.Range(111, 222);
+            EndGame(randomRewards, _defeat);
+        }
+    }
+
+    private void EndGame(int reward, Sprite icon)
+    {
+        _endGameScreen.SetActive(true);
+        _victoryImage.sprite = icon;
+        _rewards.text = reward.ToString();
+        int newGold = reward + PlayerPrefs.GetInt("Gold");
+        PlayerPrefs.SetInt("Gold", newGold);
+        Destroy(this);
     }
 }

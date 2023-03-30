@@ -89,9 +89,9 @@ public class CharacterStateManager : MonoBehaviour
         }
         else
         {
-            _maxHealth = _character._health;
-            _damage = _character._damage;
-            _speed = _character._speed;
+            _maxHealth = _character._health + GetExtraStats("Health");
+            _damage = _character._damage + GetExtraStats("Damage");
+            _speed = _character._speed + Random.Range(0, 3);
             _baseAttackTime = _character._attackTime;
             _attackRange = _character._attackRange;
             _critChance = _character._critChance;
@@ -174,6 +174,31 @@ public class CharacterStateManager : MonoBehaviour
         if(_currentHealth <= 0)
         {
             SwitchState(_dieState);
+        }
+    }
+
+    private int GetExtraStats(string statName)
+    {
+        int random = Random.Range(1, 4);
+        if(random == 1)
+        {
+            if(statName == "Health") return 0;
+            else return 0;
+        }
+        else if(random == 2)
+        {
+            if (statName == "Health") return 200;
+            else return 5;
+        }
+        else if (random == 3)
+        {
+            if (statName == "Health") return 400;
+            else return 10;
+        }
+        else
+        {
+            if (statName == "Health") return 600;
+            else return 15;
         }
     }
 
