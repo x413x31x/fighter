@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewResources", menuName = "Resources")]
 public class ResourcesObject : ScriptableObject
 {
-    private int _gold
+    private static int _gold
     {
         get => PlayerPrefs.GetInt("Gold");
         set => PlayerPrefs.SetInt("Gold", value);

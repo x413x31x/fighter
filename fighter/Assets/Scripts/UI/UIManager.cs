@@ -53,8 +53,6 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        //PlayerPrefs.DeleteAll();
-        //_resources.SetGold(100000);
         SetAudio();
         SetNickname();
         Refresh();
@@ -367,6 +365,19 @@ public class UIManager : MonoBehaviour
         else if (newCharacterName == "HotelDevil")
         {
             _prices.SetHotelTrue();
+        }
+        Refresh();
+    }
+
+    public void RewardForAd(bool isGoldReward)
+    {
+        if (isGoldReward)
+        {
+            _resources.SetGold(413);
+        }
+        else
+        {
+            _resources.SetWins(1);
         }
         Refresh();
     }

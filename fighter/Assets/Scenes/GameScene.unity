@@ -384,7 +384,7 @@ RectTransform:
   m_Children:
   - {fileID: 612917539}
   m_Father: {fileID: 1819208264}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -435,9 +435,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1251189486}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+      - m_Target: {fileID: 1158521378}
+        m_TargetAssemblyTypeName: RewAd, Assembly-CSharp
+        m_MethodName: ShowAd
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -445,7 +445,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &139403536
 MonoBehaviour:
@@ -2056,6 +2056,8 @@ GameObject:
   - component: {fileID: 1158521374}
   - component: {fileID: 1158521375}
   - component: {fileID: 1158521376}
+  - component: {fileID: 1158521377}
+  - component: {fileID: 1158521378}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2099,6 +2101,7 @@ MonoBehaviour:
   - {fileID: 2514899997747260156, guid: ccbc80b420e36da4a8a0bcdb169b19cc, type: 3}
   - {fileID: 2061110461440858286, guid: e776b4ae2c576d146b36b0da6df23053, type: 3}
   - {fileID: 1588937827238467660, guid: c7b7d4436d91b2d4e94ea566645cfd55, type: 3}
+  _resources: {fileID: 11400000, guid: 52da19525ba99b84db0f545677b07331, type: 2}
   _cinemachineCameraPref: {fileID: 5806543651410414544, guid: c0386da3cdaa0624392748c7961e24f6, type: 3}
   _playerSpownPoint: {fileID: 1342620358}
   _enemySpownPoint: {fileID: 1682952176}
@@ -2107,6 +2110,8 @@ MonoBehaviour:
   _victory: {fileID: 21300000, guid: dfa02f2cff2a8084980cd6877a0efbcc, type: 3}
   _defeat: {fileID: 21300000, guid: 48bb209e02456e24190f19690f5d4e09, type: 3}
   _rewards: {fileID: 874956213}
+  _interAd: {fileID: 1158521377}
+  _adButton: {fileID: 139403533}
 --- !u!114 &1158521376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2119,6 +2124,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff38aac348742e24e84f5094685f6517, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1158521377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158521373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd731206ed97f26449727960256f138c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1158521378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158521373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 397a61116a5b1cb449a6ef56acbf6306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAdWatched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1158521375}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: RewardForAd
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1209065638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2982,8 +3026,8 @@ RectTransform:
   - {fileID: 2117424105}
   - {fileID: 1251189489}
   - {fileID: 907743411}
-  - {fileID: 1967893896}
   - {fileID: 139403534}
+  - {fileID: 1967893896}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3025,7 +3069,7 @@ RectTransform:
   m_Children:
   - {fileID: 304963474}
   m_Father: {fileID: 1819208264}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

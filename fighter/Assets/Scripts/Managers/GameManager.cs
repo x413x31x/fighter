@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private List<CharacterStateManager> _charactersPrefs;
     private string _currentPlayerCharacterName;
+    [SerializeField] private ResourcesObject _resources;
     [SerializeField] private GameObject _cinemachineCameraPref;
     private Button _attackButton;
 
@@ -22,12 +23,16 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text _rewards;
 
     private AudioManager _audioManager;
+    private bool _gameIsOver = false;
 
     private int _gameCounter
     {
-        get => PlayerPrefs.GetInt("GameCounter");
+        get => PlayerPrefs.GetInt("GameCounter", 0);
         set => PlayerPrefs.SetInt("GameCounter", value);
     }
+    [SerializeField] private InterAd _interAd;
+    private int _reward;
+    [SerializeField] private GameObject _adButton;
 
     private void Awake()
     {
@@ -40,13 +45,16 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (_player._isDead)
+        if (!_gameIsOver)
         {
-            GameOver(false);
-        }
-        else if(_enemy._isDead)
-        {
-            GameOver(true);
+            if (_player._isDead)
+            {
+                GameOver(false);
+            }
+            else if (_enemy._isDead)
+            {
+                GameOver(true);
+            }
         }
     }
 
@@ -125,17 +133,22 @@ public class GameManager : MonoBehaviour
 
     private void GameOver(bool _playerIsWin)
     {
-        Time.timeScale = 0;
         if (_playerIsWin)
         {
             int randomRewards = Random.Range(222, 444);
             EndGame(randomRewards, _victory, "Win");
-            
+            _resources.SetWins(1);
         }
         else
         {
             int randomRewards = Random.Range(111, 222);
             EndGame(randomRewards, _defeat, "Lose");
+        }
+        Destroy(_enemy.gameObject);
+        _gameCounter++;
+        if (_gameCounter % 5 == 0)
+        {
+            _interAd.ShowAd();
         }
     }
 
@@ -146,8 +159,14 @@ public class GameManager : MonoBehaviour
         _endGameScreen.SetActive(true);
         _victoryImage.sprite = icon;
         _rewards.text = reward.ToString();
-        int newGold = reward + PlayerPrefs.GetInt("Gold");
-        PlayerPrefs.SetInt("Gold", newGold);
-        Destroy(this);
+        _resources.SetGold(reward);
+        _reward = reward;
+        _gameIsOver = true;
+    }
+
+    public void RewardForAd(bool isGoldReward)
+    {
+        _resources.SetGold(_reward);
+        _adButton.SetActive(false);
     }
 }
