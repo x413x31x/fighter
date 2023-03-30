@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour
         CharacterStateManager player = Instantiate(_charactersPrefs[FindPlayerCharacterIndex()]);
         player.transform.position = _playerSpownPoint.transform.position;
         player.tag = "Player";
+        player._nickname = UIManager._nickname;
         player.gameObject.layer = LayerMask.NameToLayer("Player");
         _player = player;
 

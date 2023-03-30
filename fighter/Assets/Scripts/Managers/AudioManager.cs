@@ -7,6 +7,18 @@ public class AudioManager : MonoBehaviour
     public Sound[] _sounds;
     public static AudioManager _instance;
 
+    [SerializeField] private AudioMixerGroup _mainMixer;
+    public static float _volume
+    {
+        get => PlayerPrefs.GetFloat("Volume");
+        set => PlayerPrefs.SetFloat("Volume", value);
+    }
+    public static float _vibration
+    {
+        get => PlayerPrefs.GetFloat("Vibration");
+        set => PlayerPrefs.SetFloat("Vibration", value);
+    }
+
     private void Awake()
     {        
         foreach(Sound sound in _sounds)
@@ -15,6 +27,7 @@ public class AudioManager : MonoBehaviour
             sound._source.clip = sound._clip;
             sound._source.volume = sound._volume;
             sound._source.pitch = sound._pitch;
+            sound._source.outputAudioMixerGroup = _mainMixer;
             sound._source.loop = sound._loop;
         }
     }
@@ -37,5 +50,16 @@ public class AudioManager : MonoBehaviour
             return;
         }
         sound._source.Stop();
+    }
+
+    public void SetVolume(float volume)
+    {
+        _mainMixer.audioMixer.SetFloat("Volume", volume);
+        _volume = volume;
+    }
+
+    public void SetVibration(float vibration)
+    {
+        _vibration = vibration;
     }
 }

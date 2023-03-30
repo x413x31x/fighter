@@ -123,3 +123,4 @@ MonoBehaviour:
     _pitch: 1
     _loop: 0
     _source: {fileID: 0}
+  _mainMixer: {fileID: 24300002, guid: c61bac0519d59a44f9b125f6e20538c5, type: 2}

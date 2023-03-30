@@ -37,6 +37,14 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject _golfBye;
     [SerializeField] private GameObject _hotelBye;
 
+    [SerializeField] private Slider _volumeSlider;
+    [SerializeField] private Slider _vibrationSlider;
+    [SerializeField] private TMP_InputField _inputField;
+    public static string _nickname
+    {
+        get => PlayerPrefs.GetString("Nickname", "413x31");
+        set => PlayerPrefs.SetString("Nickname", value);
+    }
 
     private int _healthPerUp = 200;
     private int _damagePerUp = 5;
@@ -46,9 +54,10 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         //PlayerPrefs.DeleteAll();
-       // _resources.SetGold(100000);
+        //_resources.SetGold(100000);
+        SetAudio();
+        SetNickname();
         Refresh();
-        FindObjectOfType<AudioManager>().Play("BackgroundMusic");
     }
 
     private void SetCharacter()
@@ -165,6 +174,32 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    private void SetAudio()
+    {
+        FindObjectOfType<AudioManager>().Play("BackgroundMusic");
+        if (!PlayerPrefs.HasKey("Volume"))
+        {
+            AudioManager._volume = 0;
+        }
+        _volumeSlider.value = AudioManager._volume;
+
+        if (!PlayerPrefs.HasKey("Vibration"))
+        {
+            AudioManager._vibration = 0;
+        }
+        _vibrationSlider.value = AudioManager._vibration;
+    }
+
+    private void SetNickname()
+    {
+        _inputField.text = _nickname;
+    }
+
+    public void SaveNickname()
+    {
+        _nickname = _inputField.text;
+    }
+
     private void Refresh()
     {
         SetCharacter();
@@ -258,134 +293,81 @@ public class UIManager : MonoBehaviour
 
     public void OnBravoPressed()
     {
-        if(_prices.CheckBravo() == 1)
-        {
-            _currentCharacterName = "BravoStrongman";
-            Refresh();
-            return;
-        }
-        if(_resources.GetGold() < _prices._bravo)
-        {
-            return;
-        }
-        _resources.SetGold(-_prices._bravo);
-        _prices.SetBravoTrue();
-        _currentCharacterName = "BravoStrongman";
-
-        Refresh();
+        OnButtonPressed(_prices.CheckBravo(), "BravoStrongman", _prices._bravo);
     }
 
     public void OnCharliePressed()
     {
-        if (_prices.CheckCharlie() == 1)
-        {
-            _currentCharacterName = "CharlieNinja";
-            Refresh();
-            return;
-        }
-        if (_resources.GetGold() < _prices._charlie)
-        {
-            return;
-        }
-        _resources.SetGold(-_prices._charlie);
-        _prices.SetCharlieTrue();
-        _currentCharacterName = "CharlieNinja";
-
-        Refresh();
+        OnButtonPressed(_prices.CheckCharlie(), "CharlieNinja", _prices._charlie);
     }
 
     public void OnDeltaPressed()
     {
-        if (_prices.CheckDelta() == 1)
-        {
-            _currentCharacterName = "DeltaRobber";
-            Refresh();
-            return;
-        }
-        if (_resources.GetGold() < _prices._delta)
-        {
-            return;
-        }
-        _resources.SetGold(-_prices._delta);
-        _prices.SetDeltaTrue();
-        _currentCharacterName = "DeltaRobber";
-
-        Refresh();
+        OnButtonPressed(_prices.CheckDelta(), "DeltaRobber", _prices._delta);
     }
 
     public void OnEchoPressed()
     {
-        if (_prices.CheckEcho() == 1)
-        {
-            _currentCharacterName = "EchoWarrior";
-            Refresh();
-            return;
-        }
-        if (_resources.GetGold() < _prices._echo)
-        {
-            return;
-        }
-        _resources.SetGold(-_prices._echo);
-        _prices.SetEchoTrue();
-        _currentCharacterName = "EchoWarrior";
-
-        Refresh();
+        OnButtonPressed(_prices.CheckEcho(), "EchoWarrior", _prices._echo);
     }
 
     public void OnFoxtrotPressed()
     {
-        if (_prices.CheckFoxtrot() == 1)
-        {
-            _currentCharacterName = "FoxtrotElfy";
-            Refresh();
-            return;
-        }
-        if (_resources.GetGold() < _prices._foxtrot)
-        {
-            return;
-        }
-        _resources.SetGold(-_prices._foxtrot);
-        _prices.SetFoxtrotTrue();
-        _currentCharacterName = "FoxtrotElfy";
-
-        Refresh();
+        OnButtonPressed(_prices.CheckFoxtrot(), "FoxtrotElfy", _prices._foxtrot);
     }
 
     public void OnGolfPressed()
     {
-        if (_prices.CheckGolf() == 1)
-        {
-            _currentCharacterName = "GolfYoung";
-            Refresh();
-            return;
-        }
-        if (_resources.GetGold() < _prices._golf)
-        {
-            return;
-        }
-        _resources.SetGold(-_prices._golf);
-        _prices.SetGolfTrue();
-        _currentCharacterName = "GolfYoung";
-
-        Refresh();
+        OnButtonPressed(_prices.CheckGolf(), "GolfYoung", _prices._golf);
     }
 
     public void OnHotelPressed()
     {
-        if (_prices.CheckHotel() == 1)
+        OnButtonPressed(_prices.CheckHotel(), "HotelDevil", _prices._hotel);
+    }
+
+    private void OnButtonPressed(int isUnlock, string newCharacterName, int price)
+    {
+        if(isUnlock == 1)
         {
-            _currentCharacterName = "HotelDevil";
+            _currentCharacterName = newCharacterName;
             Refresh();
             return;
         }
-        if (_resources.GetGold() < _prices._hotel)
+        if(_resources.GetGold() < price)
         {
             return;
         }
-        _resources.SetGold(-_prices._hotel);
-        _prices.SetHotelTrue();
-        _currentCharacterName = "HotelDevil";
-
+        _resources.SetGold(-price);
+        _currentCharacterName = newCharacterName;
+        if(newCharacterName == "BravoStrongman")
+        {
+            _prices.SetBravoTrue();
+        }
+        else if(newCharacterName == "CharlieNinja")
+        {
+            _prices.SetCharlieTrue();
+        }
+        else if (newCharacterName == "DeltaRobber")
+        {
+            _prices.SetDeltaTrue();
+        }
+        else if (newCharacterName == "EchoWarrior")
+        {
+            _prices.SetEchoTrue();
+        }
+        else if (newCharacterName == "FoxtrotElfy")
+        {
+            _prices.SetFoxtrotTrue();
+        }
+        else if (newCharacterName == "GolfYoung")
+        {
+            _prices.SetGolfTrue();
+        }
+        else if (newCharacterName == "HotelDevil")
+        {
+            _prices.SetHotelTrue();
+        }
         Refresh();
     }
 }
