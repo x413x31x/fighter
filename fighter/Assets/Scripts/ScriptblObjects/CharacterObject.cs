@@ -15,4 +15,5 @@ public class CharacterObject : ScriptableObject
     public int _missChance;
     public int _bashChance;
     public Sprite _icon;
+    public string _attackSoundName;
 }

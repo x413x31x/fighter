@@ -22,3 +22,4 @@ MonoBehaviour:
   _missChance: 15
   _bashChance: 15
   _icon: {fileID: 21300000, guid: b6c7349b0febe4042858e4dee3ba2470, type: 3}
+  _attackSoundName: AlphaAttack

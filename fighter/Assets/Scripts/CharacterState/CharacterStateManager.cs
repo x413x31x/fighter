@@ -32,6 +32,7 @@ public class CharacterStateManager : MonoBehaviour
 
     [HideInInspector] public Animator _animatorController;
     [HideInInspector] public Rigidbody2D _rigidBody;
+    [HideInInspector] public AudioManager _audioManager;
 
     [HideInInspector] public Joystick _joystick;
     [HideInInspector] public Button _attackButton;
@@ -65,6 +66,7 @@ public class CharacterStateManager : MonoBehaviour
     {
         _animatorController = GetComponent<Animator>();
         _rigidBody = GetComponent<Rigidbody2D>();
+        _audioManager = FindObjectOfType<AudioManager>();
         _playerPosition = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         _joystick = GameObject.FindGameObjectWithTag("MoveJoystick").GetComponent<Joystick>();
         _attackButton = GameObject.FindGameObjectWithTag("AttackButton").GetComponent<Button>();
@@ -122,6 +124,11 @@ public class CharacterStateManager : MonoBehaviour
         }
     }
 
+    private void StartAttackSound()
+    {
+        _audioManager.Play(_character._attackSoundName);
+    }
+
     private void OnAttack()
     {
         if (_isPlayer)
@@ -129,7 +136,7 @@ public class CharacterStateManager : MonoBehaviour
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _enemyLayer);
             foreach (Collider2D enemy in hitEnemies)
             {
-                enemy.GetComponent<CharacterStateManager>().TakenDamage(_damage);
+                enemy.GetComponent<CharacterStateManager>().TakenDamage(this);
             }
         }
         else
@@ -137,12 +144,12 @@ public class CharacterStateManager : MonoBehaviour
             Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _playerLayer);
             foreach (Collider2D player in hitPlayers)
             {
-                player.GetComponent<CharacterStateManager>().TakenDamage(_damage);
+                player.GetComponent<CharacterStateManager>().TakenDamage(this);
             }
         }
     }
 
-    public void TakenDamage(int damage)
+    public void TakenDamage(CharacterStateManager attacker)
     {
         int randomMiss = Random.Range(0, 100);
         if(randomMiss <= _missChance)
@@ -152,23 +159,23 @@ public class CharacterStateManager : MonoBehaviour
         }
 
         int randomBash = Random.Range(0, 100);
-        if(randomBash <= _bashChance)
+        if(randomBash <= attacker._bashChance)
         {
             Instantiate(_wordOnBash, transform.position, Quaternion.identity);
             SwitchState(_stunState);
         }
 
         int randomCrit = Random.Range(0, 100);
-        if(randomCrit <= _critChance)
+        if(randomCrit <= attacker._critChance)
         {
             Instantiate(_wordOnCrit, transform.position, Quaternion.identity);
             Instantiate(_effectOnCrit, transform.position, Quaternion.identity);
-            _currentHealth -= damage * 2;
+            _currentHealth -= attacker._damage * 2;
         }
         else
         {
             Instantiate(_effectOnHit, transform.position, Quaternion.identity);
-            _currentHealth -= damage;
+            _currentHealth -= attacker._damage;
         }
 
         if(_currentHealth <= 0)

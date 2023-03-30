@@ -12,4 +12,10 @@ public class SceneChanger : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("MenuScene");
+        Time.timeScale = 1;
+    }
 }

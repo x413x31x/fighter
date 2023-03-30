@@ -22,3 +22,4 @@ MonoBehaviour:
   _missChance: 20
   _bashChance: 17
   _icon: {fileID: 21300000, guid: 430b7fd238bf46e4c870d7a30be9832f, type: 3}
+  _attackSoundName: FoxtrotAttack

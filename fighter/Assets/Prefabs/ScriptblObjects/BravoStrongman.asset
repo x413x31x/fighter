@@ -22,3 +22,4 @@ MonoBehaviour:
   _missChance: 10
   _bashChance: 20
   _icon: {fileID: 21300000, guid: e84803cc45475324f9ecdd59ddfa3d10, type: 3}
+  _attackSoundName: BravoAttack

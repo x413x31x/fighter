@@ -48,6 +48,7 @@ public class UIManager : MonoBehaviour
         //PlayerPrefs.DeleteAll();
        // _resources.SetGold(100000);
         Refresh();
+        FindObjectOfType<AudioManager>().Play("BackgroundMusic");
     }
 
     private void SetCharacter()

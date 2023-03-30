@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Sprite _defeat;
     [SerializeField] private TMP_Text _rewards;
 
+    private AudioManager _audioManager;
+
     private int _gameCounter
     {
         get => PlayerPrefs.GetInt("GameCounter");
@@ -29,6 +31,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        _audioManager = FindObjectOfType<AudioManager>();
+        _audioManager.Play("BattleMusic");
         CreatePlayer();
         CreateEnemy();
         CreateCamera();
@@ -124,18 +128,20 @@ public class GameManager : MonoBehaviour
         if (_playerIsWin)
         {
             int randomRewards = Random.Range(222, 444);
-            EndGame(randomRewards, _victory);
+            EndGame(randomRewards, _victory, "Win");
             
         }
         else
         {
             int randomRewards = Random.Range(111, 222);
-            EndGame(randomRewards, _defeat);
+            EndGame(randomRewards, _defeat, "Lose");
         }
     }
 
-    private void EndGame(int reward, Sprite icon)
+    private void EndGame(int reward, Sprite icon, string musicName)
     {
+        _audioManager.Stop("BattleMusic");
+        _audioManager.Play(musicName);
         _endGameScreen.SetActive(true);
         _victoryImage.sprite = icon;
         _rewards.text = reward.ToString();

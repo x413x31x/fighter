@@ -7,6 +7,7 @@ public class CharacterWalkingState : CharacterBaseState
     public override void EnterState(CharacterStateManager character)
     {
         character._animatorController.SetBool("isWalking", true);
+        character._audioManager.Play("Steps");
         if (character._isPlayer)
         {
             character._attackButton.interactable = false;
@@ -28,6 +29,7 @@ public class CharacterWalkingState : CharacterBaseState
     public override void ExitState(CharacterStateManager character)
     {
         character._animatorController.SetBool("isWalking", false);
+        character._audioManager.Stop("Steps");
         if (character._isPlayer)
         {
             character._attackButton.interactable = true;
