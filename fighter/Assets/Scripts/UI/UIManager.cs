@@ -381,4 +381,15 @@ public class UIManager : MonoBehaviour
         }
         Refresh();
     }
+
+    public void GoldRewardForPurchase()
+    {
+        _resources.SetGold(1000);
+        Refresh();
+    }
+    public void WinsRewardForPurchase()
+    {
+        _resources.SetWins(1);
+        Refresh();
+    }
 }
