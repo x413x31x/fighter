@@ -15,7 +15,7 @@ MonoBehaviour:
   _name: DeltaRobber
   _health: 800
   _damage: 45
-  _speed: 7
+  _speed: 3
   _attackTime: 0.7
   _attackRange: 1
   _critChance: 20

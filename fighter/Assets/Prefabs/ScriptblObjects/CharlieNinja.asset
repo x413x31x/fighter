@@ -15,7 +15,7 @@ MonoBehaviour:
   _name: CharlieNinja
   _health: 800
   _damage: 30
-  _speed: 8
+  _speed: 4
   _attackTime: 0.5
   _attackRange: 0.75
   _critChance: 17

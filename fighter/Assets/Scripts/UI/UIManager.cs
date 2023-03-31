@@ -9,7 +9,7 @@ public class UIManager : MonoBehaviour
     private CharacterObject _character;
     private string _currentCharacterName
     {
-        get => PlayerPrefs.GetString("CurrentCharacter");
+        get => PlayerPrefs.GetString("CurrentCharacter", "AlphaSpartan");
         set => PlayerPrefs.SetString("CurrentCharacter", value);
     }
 
@@ -53,7 +53,6 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        SetAudio();
         SetNickname();
         Refresh();
     }
@@ -170,22 +169,6 @@ public class UIManager : MonoBehaviour
         {
             _hotelBye.SetActive(false);
         }
-    }
-
-    private void SetAudio()
-    {
-        FindObjectOfType<AudioManager>().Play("BackgroundMusic");
-        if (!PlayerPrefs.HasKey("Volume"))
-        {
-            AudioManager._volume = 0;
-        }
-        _volumeSlider.value = AudioManager._volume;
-
-        if (!PlayerPrefs.HasKey("Vibration"))
-        {
-            AudioManager._vibration = 0;
-        }
-        _vibrationSlider.value = AudioManager._vibration;
     }
 
     private void SetNickname()

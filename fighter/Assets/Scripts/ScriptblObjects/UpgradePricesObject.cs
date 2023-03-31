@@ -1,8 +1,6 @@
 using UnityEngine;
 
-
 [CreateAssetMenu(fileName = "NewUpgradePrices", menuName = "UpgradePrices")]
-
 public class UpgradePricesObject : ScriptableObject
 {
     public int _bravo;
@@ -15,68 +13,68 @@ public class UpgradePricesObject : ScriptableObject
 
     private int _goldForHealth
     {
-        get => PlayerPrefs.GetInt("GoldForHealth");
+        get => PlayerPrefs.GetInt("GoldForHealth", 200);
         set => PlayerPrefs.SetInt("GoldForHealth", value);
     }
     private int _goldForDamage
     {
-        get => PlayerPrefs.GetInt("GoldForDamage");
+        get => PlayerPrefs.GetInt("GoldForDamage", 200);
         set => PlayerPrefs.SetInt("GoldForDamage", value);
     }
     private int _goldForSpeed
     {
-        get => PlayerPrefs.GetInt("GoldForSpeed");
+        get => PlayerPrefs.GetInt("GoldForSpeed", 200);
         set => PlayerPrefs.SetInt("GoldForSpeed", value);
     }
     private int _goldForCritChance
     {
-        get => PlayerPrefs.GetInt("GoldForCritChance");
+        get => PlayerPrefs.GetInt("GoldForCritChance", 200);
         set => PlayerPrefs.SetInt("GoldForCritChance", value);
     }
     private int _goldForMissChance
     {
-        get => PlayerPrefs.GetInt("GoldForMissChance");
+        get => PlayerPrefs.GetInt("GoldForMissChance", 200);
         set => PlayerPrefs.SetInt("GoldForMissChance", value);
     }
     private int _goldForBashChance
     {
-        get => PlayerPrefs.GetInt("GoldForBashChance");
+        get => PlayerPrefs.GetInt("GoldForBashChance", 200);
         set => PlayerPrefs.SetInt("GoldForBashChance", value);
     }
 
     private int _bravoIsBought
     {
-        get => PlayerPrefs.GetInt("BravoIsBought");
+        get => PlayerPrefs.GetInt("BravoIsBought", 0);
         set => PlayerPrefs.SetInt("BravoIsBought", value);
     }
     private int _charlieIsBought
     {
-        get => PlayerPrefs.GetInt("CharlieIsBought");
+        get => PlayerPrefs.GetInt("CharlieIsBought", 0);
         set => PlayerPrefs.SetInt("CharlieIsBought", value);
     }
     private int _deltaIsBought
     {
-        get => PlayerPrefs.GetInt("DeltaIsBought");
+        get => PlayerPrefs.GetInt("DeltaIsBought", 0);
         set => PlayerPrefs.SetInt("DeltaIsBought", value);
     }
     private int _echoIsBought
     {
-        get => PlayerPrefs.GetInt("EchoIsBought");
+        get => PlayerPrefs.GetInt("EchoIsBought", 0);
         set => PlayerPrefs.SetInt("EchoIsBought", value);
     }
     private int _foxtrotIsBought
     {
-        get => PlayerPrefs.GetInt("FoxtrotIsBought");
+        get => PlayerPrefs.GetInt("FoxtrotIsBought", 0);
         set => PlayerPrefs.SetInt("FoxtrotIsBought", value);
     }
     private int _golfIsBought
     {
-        get => PlayerPrefs.GetInt("GolfIsBought");
+        get => PlayerPrefs.GetInt("GolfIsBought", 0);
         set => PlayerPrefs.SetInt("GolfIsBought", value);
     }
     private int _hotelIsBought
     {
-        get => PlayerPrefs.GetInt("HotelIsBought");
+        get => PlayerPrefs.GetInt("HotelIsBought", 0);
         set => PlayerPrefs.SetInt("HotelIsBought", value);
     }
 

@@ -5,22 +5,21 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     public Sound[] _sounds;
-    public static AudioManager _instance;
 
     [SerializeField] private AudioMixerGroup _mainMixer;
     public static float _volume
     {
-        get => PlayerPrefs.GetFloat("Volume");
+        get => PlayerPrefs.GetFloat("Volume", 0);
         set => PlayerPrefs.SetFloat("Volume", value);
     }
     public static float _vibration
     {
-        get => PlayerPrefs.GetFloat("Vibration");
+        get => PlayerPrefs.GetFloat("Vibration", 0);
         set => PlayerPrefs.SetFloat("Vibration", value);
     }
 
-    private void Awake()
-    {        
+    private void OnEnable()
+    {
         foreach(Sound sound in _sounds)
         {
             sound._source = gameObject.AddComponent<AudioSource>();
@@ -30,6 +29,11 @@ public class AudioManager : MonoBehaviour
             sound._source.outputAudioMixerGroup = _mainMixer;
             sound._source.loop = sound._loop;
         }
+    }
+
+    private void Start()
+    {
+        Play("BackgroundMusic");
     }
 
     public void Play(string name)

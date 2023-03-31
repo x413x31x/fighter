@@ -5,21 +5,17 @@ public class ResourcesObject : ScriptableObject
 {
     private static int _gold
     {
-        get => PlayerPrefs.GetInt("Gold");
+        get => PlayerPrefs.GetInt("Gold", 100);
         set => PlayerPrefs.SetInt("Gold", value);
     }
     private int _wins
     {
-        get => PlayerPrefs.GetInt("Wins");
+        get => PlayerPrefs.GetInt("Wins", 0);
         set => PlayerPrefs.SetInt("Wins", value);
     }
 
     public int GetGold()
     {
-        if (!PlayerPrefs.HasKey("Gold"))
-        {
-            _gold = 10000;
-        }
         return _gold;
     }
 

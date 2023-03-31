@@ -1,37 +1,36 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewUpgradedStats", menuName = "UpgradedStats")]
-
 public class UpgradedStatsObject : ScriptableObject
 {
     private int _health
     {
-        get => PlayerPrefs.GetInt("UpgradedHealth");
+        get => PlayerPrefs.GetInt("UpgradedHealth", 1000);
         set => PlayerPrefs.SetInt("UpgradedHealth", value);
     }
     private int _damage
     {
-        get => PlayerPrefs.GetInt("UpgradedDamage");
+        get => PlayerPrefs.GetInt("UpgradedDamage", 25);
         set => PlayerPrefs.SetInt("UpgradedDamage", value);
     }
     private int _speed
     {
-        get => PlayerPrefs.GetInt("UpgradedSpeed");
+        get => PlayerPrefs.GetInt("UpgradedSpeed", 6);
         set => PlayerPrefs.SetInt("UpgradedSpeed", value);
     }
     private int _critChance
     {
-        get => PlayerPrefs.GetInt("UpgradedCritChance");
+        get => PlayerPrefs.GetInt("UpgradedCritChance", 15);
         set => PlayerPrefs.SetInt("UpgradedCritChance", value);
     }
     private int _missChance
     {
-        get => PlayerPrefs.GetInt("UpgradedMissChance");
+        get => PlayerPrefs.GetInt("UpgradedMissChance", 15);
         set => PlayerPrefs.SetInt("UpgradedMissChance", value);
     }
     private int _bashChance
     {
-        get => PlayerPrefs.GetInt("UpgradedBashChance");
+        get => PlayerPrefs.GetInt("UpgradedBashChance", 15);
         set => PlayerPrefs.SetInt("UpgradedBashChance", value);
     }
 

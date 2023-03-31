@@ -45,82 +45,82 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sounds:
-  - _name: BackgroundMusic
+  - _source: {fileID: 0}
+    _name: BackgroundMusic
     _clip: {fileID: 8300000, guid: a6124c7a01347114b8a9de03aab95058, type: 3}
     _volume: 1
     _pitch: 1
     _loop: 1
-    _source: {fileID: 0}
-  - _name: BattleMusic
+  - _source: {fileID: 0}
+    _name: BattleMusic
     _clip: {fileID: 8300000, guid: c653db4915dae7c4a969e4e57c96caf6, type: 3}
     _volume: 0.66
     _pitch: 1.01
     _loop: 1
-    _source: {fileID: 0}
-  - _name: Win
+  - _source: {fileID: 0}
+    _name: Win
     _clip: {fileID: 8300000, guid: 4d2aea7df8f78e547b8e37de4cb45ca6, type: 3}
     _volume: 0.5
     _pitch: 1
     _loop: 1
-    _source: {fileID: 0}
-  - _name: Lose
+  - _source: {fileID: 0}
+    _name: Lose
     _clip: {fileID: 8300000, guid: 1adce6b0e5050fe4da079c9f308c6983, type: 3}
-    _volume: 0.5
+    _volume: 1
     _pitch: 1
     _loop: 1
-    _source: {fileID: 0}
-  - _name: Steps
+  - _source: {fileID: 0}
+    _name: Steps
     _clip: {fileID: 8300000, guid: 06e512300f776c14bb1ad7b0c773d57f, type: 3}
     _volume: 0.2
     _pitch: 1
     _loop: 1
-    _source: {fileID: 0}
-  - _name: HotelAttack
+  - _source: {fileID: 0}
+    _name: HotelAttack
     _clip: {fileID: 8300000, guid: 9e14ecee99b5dc54a8c3c58a7713a6d6, type: 3}
     _volume: 0.45
     _pitch: 1
     _loop: 0
-    _source: {fileID: 0}
-  - _name: GolfAttack
+  - _source: {fileID: 0}
+    _name: GolfAttack
     _clip: {fileID: 8300000, guid: ea3a2ef4325d6304f9373f2b69b18c22, type: 3}
     _volume: 1
     _pitch: 1
     _loop: 0
-    _source: {fileID: 0}
-  - _name: FoxtrotAttack
+  - _source: {fileID: 0}
+    _name: FoxtrotAttack
     _clip: {fileID: 8300000, guid: f629f2f588f24cf4499c667fe96b85cc, type: 3}
     _volume: 0.3
     _pitch: 1
     _loop: 0
-    _source: {fileID: 0}
-  - _name: EchoAttack
+  - _source: {fileID: 0}
+    _name: EchoAttack
     _clip: {fileID: 8300000, guid: ef1e0c04483d1674a9ba3ea6fde81bf5, type: 3}
     _volume: 0.5
     _pitch: 1
     _loop: 0
-    _source: {fileID: 0}
-  - _name: DeltaAttack
+  - _source: {fileID: 0}
+    _name: DeltaAttack
     _clip: {fileID: 8300000, guid: 231919308c2c8de46b384f53b359f681, type: 3}
     _volume: 0.5
     _pitch: 1
     _loop: 0
-    _source: {fileID: 0}
-  - _name: CharlieAttack
+  - _source: {fileID: 0}
+    _name: CharlieAttack
     _clip: {fileID: 8300000, guid: 5ccb79e855b5c19469c98db05fb7b597, type: 3}
     _volume: 1
     _pitch: 1
     _loop: 0
-    _source: {fileID: 0}
-  - _name: BravoAttack
+  - _source: {fileID: 0}
+    _name: BravoAttack
     _clip: {fileID: 8300000, guid: 9a3cbb1fa5cde5c44b45846f1dff9681, type: 3}
     _volume: 0.5
     _pitch: 1
     _loop: 0
-    _source: {fileID: 0}
-  - _name: AlphaAttack
+  - _source: {fileID: 0}
+    _name: AlphaAttack
     _clip: {fileID: 8300000, guid: c5c94d9d903125b498b9e41f0026ada5, type: 3}
     _volume: 0.35
     _pitch: 1
     _loop: 0
-    _source: {fileID: 0}
   _mainMixer: {fileID: 24300002, guid: c61bac0519d59a44f9b125f6e20538c5, type: 2}

@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Sprite _defeat;
     [SerializeField] private TMP_Text _rewards;
 
-    private AudioManager _audioManager;
+    [SerializeField] private AudioManager _audioManager;
     private bool _gameIsOver = false;
 
     private int _gameCounter
@@ -36,8 +36,6 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        _audioManager = FindObjectOfType<AudioManager>();
-        _audioManager.Play("BattleMusic");
         CreatePlayer();
         CreateEnemy();
         CreateCamera();
@@ -154,7 +152,7 @@ public class GameManager : MonoBehaviour
 
     private void EndGame(int reward, Sprite icon, string musicName)
     {
-        _audioManager.Stop("BattleMusic");
+        _audioManager.Stop("BackgroundMusic");
         _audioManager.Play(musicName);
         _endGameScreen.SetActive(true);
         _victoryImage.sprite = icon;

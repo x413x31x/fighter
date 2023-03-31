@@ -15,7 +15,7 @@ MonoBehaviour:
   _name: BravoStrongman
   _health: 1200
   _damage: 45
-  _speed: 5
+  _speed: 2
   _attackTime: 0.8
   _attackRange: 0.75
   _critChance: 17
